@@ -1,0 +1,109 @@
+# Computer System and Organization — Lesson Note
+
+## What is a Computer System?
+
+A **computer system** is an integrated set of hardware and software components designed to receive, process, store, and output data. It includes everything from the physical devices (hardware) to the programs and operating systems (software) that make the computer useful.
+
+---
+
+## Components of a Computer System
+
+### 1. **Hardware**
+
+- **Input Devices:** Allow users to enter data (e.g., keyboard, mouse, scanner).
+
+- **Output Devices:** Present information to users (e.g., monitor, printer, speakers).
+
+
+- **Processor (CPU):** Executes instructions and processes data.
+
+
+- **Memory:**
+
+  - **Primary Memory:** RAM (temporary, fast), ROM (permanent, stores firmware).
+
+  - **Secondary Memory:** Hard drives, SSDs, USB drives (permanent storage).
+
+- **Motherboard:** Main circuit board connecting all components.
+
+- **I/O Ports and Buses:** Facilitate communication between components.
+
+### 2. **Software**
+
+- **System Software:** Operating systems (e.g., Windows, Linux, macOS) that manage hardware and provide services for application software.
+
+- **Application Software:** Programs that perform specific tasks for users (e.g., browsers, word processors).
+
+---
+
+## Computer Organization
+
+**Computer Organization** refers to the operational structure and implementation of the computer system. It focuses on how hardware components interact and how data flows within the system.
+
+### Key Aspects of Computer Organization
+
+- **CPU Organization:** Structure of the processor, including ALU, control unit, and registers.
+
+- **Memory Organization:** How memory is arranged and accessed (e.g., cache, RAM, ROM).
+
+- **I/O Organization:** How input/output devices communicate with the CPU and memory.
+
+- **System Buses:** Pathways for data transfer among CPU, memory, and peripherals (data bus, address bus, control bus).
+
+- **Instruction Cycle:** The process by which the CPU fetches, decodes, and executes instructions.
+
+---
+
+## Difference Between Computer Architecture and Organization
+
+
+| Computer Architecture                | Computer Organization                      |
+|--------------------------------------|--------------------------------------------|
+| Deals with the design and structure of a computer system (what to do) | Deals with the operational units and their interconnections (how to do it) |
+| Focuses on functionality and capabilities | Focuses on implementation and performance  |
+| Example: Instruction set, addressing modes | Example: Control signals, data paths, memory types |
+
+---
+
+
+
+## Importance of Computer System and Organization
+
+
+- **Performance:** Efficient organization leads to faster and more reliable systems.
+
+- **Scalability:** Good design allows for system upgrades and expansion.
+
+- **Compatibility:** Ensures hardware and software work together smoothly.
+
+- **Cost-effectiveness:** Optimized organization reduces costs and power consumption.
+
+---
+
+
+
+## Summary Table
+
+| Component        | Function                                      |
+|------------------|-----------------------------------------------|
+| Input Devices    | Enter data into the computer                  |
+| Output Devices   | Display or output information                 |
+| CPU              | Process and execute instructions              |
+| Memory           | Store data and instructions                   |
+| Storage Devices  | Permanent data storage                        |
+| System Software  | Manage hardware and provide a platform        |
+| Application Software | Perform user-specific tasks               |
+
+---
+
+
+
+## Further Reading
+
+- [Computer System (Wikipedia)](https://en.wikipedia.org/wiki/Computer)
+- "Computer Organization and Design" by Patterson & Hennessy
+- [Computer Architecture vs Organization](https://www.geeksforgeeks.org/difference-between-computer-architecture-and-computer-organization/)
+
+---
+
+*Prepared for Blockfuse Labs Software Engineering Course*
