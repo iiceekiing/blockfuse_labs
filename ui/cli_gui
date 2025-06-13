@@ -1,0 +1,127 @@
+**CLI (Command-Line Interface):**
+- A text-based interface where users type commands to interact with the computer.
+- Examples: Windows Command Prompt, Linux Bash, macOS Terminal.
+- Efficient for advanced users and automation.
+
+**GUI (Graphical User Interface):**
+- A visual interface with windows, icons, buttons, and menus.
+- Users interact using a mouse or touch.
+- Examples: Windows desktop, macOS, GNOME/KDE on Linux.
+- Easier for beginners and general use.
+
+
+
+# Top 100 CLI Commands and Their Meanings
+
+| Command         | Meaning/Description                                              |
+|-----------------|-----------------------------------------------------------------|
+| ls              | List files and directories                                      |
+| cd              | Change directory                                                |
+| pwd             | Print working directory                                         |
+| cp              | Copy files or directories                                       |
+| mv              | Move or rename files/directories                                |
+| rm              | Remove files or directories                                     |
+| mkdir           | Create a new directory                                          |
+| rmdir           | Remove an empty directory                                       |
+| touch           | Create an empty file or update file timestamp                   |
+| cat             | Display contents of a file                                      |
+| less            | View file contents one page at a time                           |
+| more            | View file contents page by page                                 |
+| head            | Show the first lines of a file                                  |
+| tail            | Show the last lines of a file                                   |
+| grep            | Search for text in files                                        |
+| find            | Search for files and directories                                |
+| locate          | Quickly find files by name                                      |
+| updatedb        | Update the database for locate                                  |
+| chmod           | Change file permissions                                         |
+| chown           | Change file owner and group                                     |
+| chgrp           | Change group ownership of a file                                |
+| man             | Show manual/help for a command                                  |
+| info            | Display command information                                     |
+| echo            | Print text to the terminal                                      |
+| sudo            | Run a command as superuser (admin)                              |
+| su              | Switch user or become superuser                                 |
+| passwd          | Change user password                                            |
+| whoami          | Show current username                                           |
+| who             | Show who is logged in                                           |
+| w               | Show who is logged in and what they are doing                   |
+| date            | Display or set the system date and time                         |
+| cal             | Display a calendar                                              |
+| uname           | Show system information                                         |
+| df              | Show disk space usage                                           |
+| du              | Show file and directory space usage                             |
+| free            | Show memory usage                                               |
+| top             | Display running processes                                       |
+| htop            | Interactive process viewer                                      |
+| ps              | Show running processes                                          |
+| kill            | Terminate a process by PID                                      |
+| killall         | Terminate processes by name                                     |
+| pkill           | Kill processes by pattern                                       |
+| bg              | Resume a job in the background                                  |
+| fg              | Bring a job to the foreground                                   |
+| jobs            | List active jobs                                                |
+| nohup           | Run a command immune to hangups                                 |
+| screen          | Terminal multiplexer                                            |
+| tmux            | Terminal multiplexer                                            |
+| history         | Show command history                                            |
+| alias           | Create command shortcuts                                        |
+| unalias         | Remove command shortcuts                                        |
+| clear           | Clear the terminal screen                                       |
+| exit            | Exit the terminal or shell                                      |
+| ssh             | Secure shell remote login                                       |
+| scp             | Secure copy files over SSH                                      |
+| sftp            | Secure file transfer protocol                                   |
+| ftp             | File transfer protocol client                                   |
+| wget            | Download files from the web                                     |
+| curl            | Transfer data from or to a server                               |
+| ping            | Test network connectivity                                       |
+| traceroute      | Trace the route to a host                                       |
+| ifconfig        | Configure network interfaces                                    |
+| ip              | Show/manipulate routing, devices, policy routing, etc.          |
+| netstat         | Network connections, routing tables, interface statistics       |
+| ss              | Another utility to investigate sockets                          |
+| nslookup        | Query Internet domain name servers                              |
+| dig             | DNS lookup utility                                              |
+| mount           | Mount a filesystem                                              |
+| umount          | Unmount a filesystem                                            |
+| df              | Show disk free space                                            |
+| fdisk           | Partition table manipulator                                     |
+| mkfs            | Build a Linux filesystem                                        |
+| fsck            | File system consistency check                                   |
+| tar             | Archive files                                                   |
+| zip             | Compress files into a zip archive                               |
+| unzip           | Extract files from a zip archive                                |
+| gzip            | Compress files                                                  |
+| gunzip          | Decompress files                                                |
+| bzip2           | Compress files with bzip2                                       |
+| bunzip2         | Decompress bzip2 files                                          |
+| xz              | Compress files with xz                                          |
+| unxz            | Decompress xz files                                             |
+| diff            | Compare files line by line                                      |
+| patch           | Apply changes to files                                          |
+| sed             | Stream editor for filtering and transforming text               |
+| awk             | Pattern scanning and processing language                        |
+| sort            | Sort lines of text files                                        |
+| uniq            | Report or omit repeated lines                                   |
+| cut             | Remove sections from each line of files                         |
+| paste           | Merge lines of files                                            |
+| tr              | Translate or delete characters                                  |
+| wc              | Word, line, character, and byte count                           |
+| tee             | Read from stdin and write to stdout and files                   |
+| env             | Show environment variables                                      |
+| export          | Set environment variables                                       |
+| source          | Run commands from a file in the current shell                   |
+| crontab         | Schedule periodic jobs                                          |
+| at              | Schedule a command to run once at a certain time                |
+| shutdown        | Turn off the computer                                           |
+| reboot          | Restart the computer                                            |
+| poweroff        | Power off the system                                            |
+
+---
+
+*Prepared for Blockfuse Labs Software Engineering Course*
+
+
+
+**Summary:**  
+CLI is powerful and scriptable, while GUI is user-friendly and visual. Both are ways the OS allows users to interact with the system.

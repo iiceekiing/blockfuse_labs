@@ -1,0 +1,115 @@
+# Comprehensive Note on Computer Architecture
+
+## What is Computer Architecture?
+
+**Computer Architecture** is the science and art of selecting and interconnecting hardware components to create computers that meet functional, performance, and cost goals. It defines the structure, behavior, and design of a computer system, including its hardware, system software, and how they interact.
+
+---
+
+## Main Components of Computer Architecture
+
+### 1. **Central Processing Unit (CPU)**
+- The "brain" of the computer.
+- Executes instructions, performs calculations, and manages data flow.
+- Contains:
+  - **Arithmetic Logic Unit (ALU):** Performs arithmetic and logical operations.
+  - **Control Unit (CU):** Directs the operation of the processor.
+  - **Registers:** Small, fast storage locations for temporary data.
+
+### 2. **Memory**
+- Stores data and instructions needed by the CPU.
+- Types:
+  - **RAM (Random Access Memory):** Volatile, temporary storage for running programs.
+  - **ROM (Read-Only Memory):** Non-volatile, permanent storage for firmware.
+  - **Cache:** Small, fast memory close to the CPU for frequently accessed data.
+
+### 3. **Input/Output (I/O) Devices**
+- Allow communication between the computer and the external world.
+- Examples: Keyboard, mouse, monitor, printer, network cards.
+
+### 4. **System Bus**
+- Communication pathway connecting CPU, memory, and I/O devices.
+- Types:
+  - **Data Bus:** Transfers data.
+  - **Address Bus:** Carries memory addresses.
+  - **Control Bus:** Carries control signals.
+
+---
+
+## Key Concepts
+
+### **Process**
+- A **process** is an instance of a program in execution.
+- It has its own memory space, code, data, and system resources.
+- The OS manages processes, allowing multitasking (running multiple processes at once).
+- Each process is isolated from others for security and stability.
+
+### **Thread**
+- A **thread** is the smallest unit of execution within a process.
+- Threads within the same process share memory and resources.
+- Multi-threading allows a process to perform multiple tasks simultaneously (e.g., downloading and processing data at the same time).
+- Threads are lighter weight than processes and have less overhead.
+
+### **Executable**
+- An **executable** is a file containing machine code that can be run by the computer.
+- Created by compiling source code (e.g., `.exe` on Windows, no extension or `.out` on Linux).
+- When an executable is run, the OS loads it into memory and creates a process.
+
+### **Program**
+- A **program** is a set of instructions written in a programming language.
+- It is a passive entity (just code and data) stored on disk.
+- When a program is executed, it becomes a process.
+
+### **Parallel Process**
+- **Parallel processing** involves running multiple processes or threads at the same time, usually on multiple CPUs or cores.
+- Used to speed up computation by dividing tasks among processors.
+- Example: Image processing, scientific simulations.
+
+### **Concurrent Process**
+- **Concurrency** means multiple processes or threads make progress within overlapping time periods.
+- They may not run at the exact same instant (especially on a single-core CPU), but the OS switches between them quickly.
+- Used to handle multiple tasks (like serving web requests) efficiently.
+
+---
+
+## Differences: Parallel vs Concurrent
+
+| Aspect         | Parallel Processing                      | Concurrent Processing                   |
+|----------------|------------------------------------------|-----------------------------------------|
+| Definition     | Tasks run truly simultaneously           | Tasks appear to run simultaneously      |
+| Hardware       | Requires multi-core or multi-CPU         | Can work on single or multi-core CPUs   |
+| Example        | Matrix multiplication on 4 cores         | Web server handling many connections    |
+
+---
+
+## Summary Table
+
+| Term        | Description                                                                 |
+|-------------|-----------------------------------------------------------------------------|
+| Process     | Running instance of a program, with its own memory and resources            |
+| Thread      | Smallest unit of execution within a process, shares memory with other threads|
+| Executable  | File containing machine code, ready to be run by the OS                     |
+| Program     | Set of instructions stored on disk, becomes a process when executed         |
+| Parallel    | Multiple tasks run at the same time on different processors/cores           |
+| Concurrent  | Multiple tasks make progress together, not necessarily at the same instant  |
+
+---
+
+## Importance in Computer Architecture
+
+- **Efficient Resource Use:** Good architecture enables efficient use of CPU, memory, and I/O.
+- **Performance:** Multi-core CPUs and parallelism improve speed for demanding tasks.
+- **Scalability:** Supports running many processes/threads for modern applications.
+- **Reliability:** Isolating processes and managing concurrency prevents crashes and data corruption.
+
+---
+
+## Further Reading
+
+- [Computer Architecture (Wikipedia)](https://en.wikipedia.org/wiki/Computer_architecture)
+- "Computer Organization and Design" by Patterson & Hennessy
+- [Operating System Concepts by Silberschatz, Galvin, Gagne](https://www.os-book.com/)
+
+---
+
+*Prepared for Blockfuse Labs Software Engineering Course*
