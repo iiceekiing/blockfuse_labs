@@ -1,0 +1,178 @@
+Absolutely! Let's walk through the **assignment question** step by step like you're just getting started — and explain **every single action** like you’ve never used Linux before. This is **perfect for absolute beginners**.
+
+---
+
+## 📝 **Assignment Recap**
+
+You were asked to:
+
+1. **Create a group** called `cohort-3-web2` and **add two users** `ali` and `bob`.
+2. **Create a folder** `~/documents/web2/cohort3`, and **set its group** to `cohort-3-web2`.
+3. Make sure **ali and bob can read & write** in that folder.
+4. **Create another group** `cohort-2` and **a new user** `ola`.
+5. Ensure `ola` **can’t access** that folder.
+
+---
+
+## ✅ **What You’re Learning**
+
+This assignment teaches you how to:
+
+* Manage **users** and **groups**.
+* Set **permissions** on folders.
+* Control who can access what in Linux.
+
+---
+
+## 🪜 Step-by-Step Breakdown
+
+### 🧑‍💻 Step 1: **Create a Group**
+
+Groups are used to give multiple users the same access rights.
+
+```bash
+sudo groupadd cohort-3-web2
+```
+
+* `groupadd` = create a group.
+* `cohort-3-web2` is the name of the group.
+* `sudo` = runs the command as a superuser (admin).
+
+📌 **Result**: Now there's a group that we can assign to users and folders.
+
+---
+
+### 👥 Step 2: **Create Users**
+
+Now we create the users who will be part of that group.
+
+```bash
+sudo useradd -m ali
+sudo useradd -m bob
+```
+
+* `useradd` = adds a new user.
+* `-m` = creates a home directory for the user (e.g., `/home/ali`).
+* We’re creating two users: **ali** and **bob**.
+
+📌 **Result**: Two new users are added to the system.
+
+---
+
+### 🔗 Step 3: **Add Users to the Group**
+
+Now that we have the group and users, we’ll add `ali` and `bob` to the group.
+
+```bash
+sudo usermod -aG cohort-3-web2 ali
+sudo usermod -aG cohort-3-web2 bob
+```
+
+* `usermod` = modifies a user’s settings.
+* `-aG` = append the user to the group.
+* `cohort-3-web2` is the group we’re adding them to.
+
+�� **Result**: `ali` and `bob` now belong to `cohort-3-web2`.
+
+---
+
+### 📁 Step 4: **Create the Folder**
+
+Now we create the folder where we want to control access.
+
+```bash
+mkdir -p ~/documents/web2/cohort3
+```
+
+* `mkdir` = make directory (create a folder).
+* `-p` = create **parent folders** too if they don’t exist.
+* `~` = your home directory.
+* Final path = `~/documents/web2/cohort3`
+
+📌 **Result**: You now have a folder where you want to control access.
+
+---
+
+### 🏷️ Step 5: **Change the Folder’s Group**
+
+We now assign the folder to the group we created earlier.
+
+```bash
+sudo chgrp -R cohort-3-web2 ~/documents/web2/cohort3
+```
+
+* `chgrp` = change group ownership of a file or folder.
+* `-R` = recursive (apply to everything inside the folder too).
+* This makes **cohort-3-web2** the group owner of that folder.
+
+📌 **Result**: The folder now “belongs” to the `cohort-3-web2` group.
+
+---
+
+### 🔐 Step 6: **Give the Group Read & Write Access**
+
+Now we change the permissions of the folder so that the group can use it.
+
+```bash
+sudo chmod -R 770 ~/documents/web2/cohort3
+```
+
+* `chmod` = change permission.
+* `770` means:
+
+  * **7** = read + write + execute for owner
+  * **7** = read + write + execute for group
+  * **0** = no access for others (like `ola`)
+* `-R` = apply it to all files and folders inside.
+
+📌 **Result**: Now only the owner and group members can access the folder.
+
+---
+
+### 👥 Step 7: **Create Another Group and a User**
+
+You’re now asked to create another group and a new user.
+
+```bash
+sudo groupadd cohort-2
+sudo useradd -m ola
+```
+
+📌 **Result**: You’ve now created a group `cohort-2` and a user `ola`.
+
+---
+
+### ❌ Step 8: **Ensure Ola Has No Access**
+
+Remember the `chmod 770` earlier? That already blocks `ola` because she’s **not in the group**.
+
+To test:
+
+```bash
+sudo su - ola  # switch to user ola
+cd ~/documents/web2/cohort3
+```
+
+If everything worked correctly, Ola will see:
+
+```
+Permission denied
+```
+
+📌 **Why?** Because `ola` is not in the `cohort-3-web2` group, and “others” have `0` access to the folder.
+
+---
+
+## 🧠 Quick Recap Table
+
+| Action              | Command                               |
+| ------------------- | ------------------------------------- |
+| Create group        | `sudo groupadd cohort-3-web2`         |
+| Create users        | `sudo useradd -m ali`                 |
+| Add user to group   | `sudo usermod -aG groupname username` |
+| Make folder         | `mkdir -p ~/documents/web2/cohort3`   |
+| Change folder group | `sudo chgrp -R groupname folder_path` |
+| Set permissions     | `sudo chmod -R 770 folder_path`       |
+| Switch user         | `sudo su - username`                  |
+
+
