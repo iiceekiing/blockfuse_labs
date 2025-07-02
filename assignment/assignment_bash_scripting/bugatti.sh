@@ -1,6 +1,7 @@
 #!/bin/bash
 
-echo "AVAILABLE COMMANDS"
+echo "____AVAILABLE COMMANDS____"
+echo " "
 echo "start: to start engine"
 echo "stop: to stop engine"
 echo "exit: to quit execution"

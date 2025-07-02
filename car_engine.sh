@@ -3,7 +3,7 @@
 execute=true
 engine_on=false
 
-echo "welcome to my car garage! pick any car of your choice and follow the options to for a spin"
+echo "welcome to my car garage! pick any car of your choice and follow the options for a spin"
 
 
 echo "Select any option below:  

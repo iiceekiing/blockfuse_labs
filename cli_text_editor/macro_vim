@@ -1,0 +1,70 @@
+#!/bin/bash
+
+# MACROS RECORDING STEPS
+
+
+how to check your previous saved macro's:  :reg a
+
+     gUl 'insert'  Name: 'Escf' ,<80><fd>ar|<80><fd>ai <80>kr Age: ^[<80><fd>a<80>kd<80>kl<80>kl<80>kl<80>kl<80>kl
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+qa                 " Start recording macro 'a'
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+0iName: <Esc>      " Insert 'Name: ' at the beginning
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+w gUl              " Capitalize first letter of the name
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+f, r|              " Replace comma with pipe
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+a Age: <Esc>       " Append ' Age: ' after |
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+j                  " Move to next line
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+q                  " Stop recording
+
+
+
+Name: John | Age: 20
+Name: Doe | Age: 27
+Name: Emily14 | Age: 
+Name: Rivers | Age: 34
+Name: Michael | Age: 20
+Name: Scott | Age: 41
+Name: Linda | Age: 14
+Name: Ray | Age: 25
+Name: Daniel | Age: 12
+Name: Craig | Age: 38
+Name: Sarah | Age: 25
+Name: Knox | Age: 29
+Name: Tommy | Age: 32
+Name: Israelee | Age: 33
+Name: Rachel | Age: 37
+Name: Green | Age: 22
+Name: Kryssie | Age: 19
+Name: Paul | Age: 30
+Name: Jessica | Age: 26
+Name: Lane | Age: 26
+Name: Iceking | Age: 20
+Name: Scarface | Age: 22
+Name: DevLongs | Age: 24
+
+
+
+
+
+
