@@ -40,3 +40,34 @@ try:
 except:
     print("Please enter a number, not text 🙃")
 
+
+# Example 3
+ 
+# Catching Specific Errors
+# ZeroDivisionError: If someone enters 0
+
+# ValueError: If someone enters abc
+
+try:
+    num = int(input("Enter a number: "))
+    print(10 / num)
+except ZeroDivisionError:
+    print("You can't divide by zero, champ.")
+except ValueError:
+    print("That's not a number!")
+
+
+# Example 4 
+
+ # With else and finally
+
+try:
+    number = int(input("Enter a number: "))
+    print("Half of it is", number / 2)
+except:
+    print("Something went wrong!")
+else:
+    print("Yay! Everything worked.")
+finally:
+    print("This always runs, no matter what.")
+
