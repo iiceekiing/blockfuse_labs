@@ -1,0 +1,39 @@
+# What is Control Flow in Python?
+Control flow is the part of your program that decides what to do, when to do it, and how many times to do it.
+
+
+
+
+# ✳️  Basic Types of Control Flow in Python
+
+1. Conditional Statements — Make decisions using if, else, elif
+
+2. Loops — Repeat actions using for and while
+
+3. Loop Control Statements — Change loop behavior using break, continue, pass
+
+
+
+## Conditional Statements — Making Decisions
+
+ Syntax: 
+
+if condition:
+    # do something
+
+elif another_condition:
+    # do something else
+
+else:
+    # do something if none of the above is true
+
+
+
+# 🧠  Explanation
+Python checks the if condition first.
+
+If it’s true, it runs that block and skips the rest.
+
+If not, it checks elif (optional).
+
+If nothing is true, it runs else (also optional).
