@@ -9,23 +9,29 @@ allowance += 100
 allowance -= 250
 #print(allowance)
 
-_25_percent = 0.25 * allowance
+percent = 25 / 100
 
-#print(_25_percent)
+percent *= allowance
 
-allowance  -= _25_percent
+#print(percent)
+
+allowance  -= percent
 
 #print(allowance)
 
-one_third = 0.333333333
+one_third = (1/3) * (allowance)
 
 #print(one_third)
 
-allowance *= one_third 
+allowance -= one_third 
 #print(allowance)
 
 allowance //= 2
 
 print(allowance)
+
+allowance %= 100
+
+print(f"balance: {allowance:.4f}")
 
 

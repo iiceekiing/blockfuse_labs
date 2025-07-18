@@ -41,7 +41,7 @@ first_number = float(input("first_number:"))
 second_number = float(input("second_number:"))
 mul = first_number * second_number
 print(f"{first_number} * {second_number} = {mul:.2f}")
-print("*")
+print("")
 
 
 #Divisions
@@ -59,3 +59,5 @@ first_number = float(input("first_number:"))
 second_number = float(input("second_number:"))
 exp = first_number ** second_number
 print(f"{first_number} ** {second_number} = {exp:.2f}")
+
+print("bye!!! 👋👋👋")
