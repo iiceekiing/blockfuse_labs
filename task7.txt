@@ -1,0 +1,17 @@
+✅ Task 7: Word Analyzer
+Goal: Ask the user for a word. Print:
+
+Its length
+
+The first and last letters
+
+The word in uppercase and lowercase
+
+The word reversed
+
+🧠 What You’ll Practice:
+String indexing and slicing
+
+String methods like .upper(), .lower()
+
+len()

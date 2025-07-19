@@ -1,0 +1,11 @@
+✅ Task 6: Age Calculator
+Goal: Ask the user for their birth year, then calculate and display their age.
+
+🧠 What You’ll Practice:
+Input and conversion
+
+datetime module
+
+Basic arithmetic
+
+Formatted output
