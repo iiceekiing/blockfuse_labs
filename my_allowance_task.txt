@@ -1,0 +1,89 @@
+You were given ₦120,000 as your total monthly allowance to manage all your expenses. Here’s how you spent it:
+
+1. You immediately paid ₦7,500 for your hostel accommodation.
+
+
+2. You bought new textbooks worth ₦3,200.
+
+
+3. You spent ₦1,850 on printing assignments.
+
+
+4. You added ₦500 that you found in an old wallet to your allowance.
+
+
+5. You paid 12.5% of the current balance as internet subscription fees.
+
+
+6. You gave one-sixth of what was left to your younger sister for her school fees.
+
+
+7. You bought groceries worth ₦9,750.
+
+
+8. Your bank deducted 7.3% as service charges from your remaining balance.
+
+
+9. You decided to save one-fourth of the current balance in a savings account.
+
+
+10. You spent ₦2,100 on transport for the whole week.
+
+
+11. You contributed 5.8% of what remained to a friend’s birthday gift.
+
+
+12. You gave one-third of your balance to your church as offering.
+
+
+13. You treated yourself to a small shopping spree costing ₦4,500.
+
+
+14. You added ₦1,200 that your uncle gave you when he visited.
+
+
+15. You paid 15% of the current balance for an online course.
+
+
+16. You gave one-eighth of what was left to your younger brother for pocket money.
+
+
+17. You spent ₦3,600 on medical check-ups.
+
+
+18. You saved 10% of the current balance for an emergency fund.
+
+
+19. You divided the remaining balance into 5 equal parts for daily expenses for the next five days.
+
+
+20. Finally, you kept only the remainder after setting aside ₦200 for snacks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+✅ The assignment will be marked based on the following points:
+
+✔ Correct Use of Assignment Operators – You must correctly use +=, -=, *=, /=, //=, and %= where appropriate to track each transaction.
+
+✔ Step-by-Step Balance Updates – After every transaction, the updated balance should be stored back into the same variable (just like a real cashbook).
+
+✔ Accuracy of Calculations – All percentages, fractions, and arithmetic operations must be calculated correctly based on the current balance at that step.
+
+✔ Proper Code Structure and Readability – Code should be well-organized, with each transaction on a separate line, and optional comments explaining what each step represents.
+
+✔ Correct Final Balance – The final output should reflect the exact remaining balance after all the listed transactions, proving all steps were followed correctly.

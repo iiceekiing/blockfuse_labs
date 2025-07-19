@@ -1,0 +1,13 @@
+✅ 4. Step Tracker (3 Days)
+📝 Question:
+Write a program that:
+
+Prompts the user for the number of steps they walked on Monday, Tuesday, and Wednesday.
+
+Calculates the total number of steps taken.
+
+Calculates and displays the average number of steps per day.
+
+Format the results using thousands separator (, for total, ,.2f for average).
+
+
