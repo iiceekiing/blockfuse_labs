@@ -1,0 +1,15 @@
+✅ 3. Favorite Movie Tracker
+📝 Question:
+Create a Python program that:
+
+Prompts the user for their favorite movie.
+
+Asks how many times they’ve watched it.
+
+Prints a sentence summarizing how many times they've watched the movie.
+
+Prints the movie title in uppercase.
+
+Displays the last 3 characters of the movie title using slicing.
+
+

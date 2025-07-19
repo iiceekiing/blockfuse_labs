@@ -1,0 +1,63 @@
+'''
+first_number = 4
+ second_number = 5
+# Arithmetic operators
+# plus +
+sub = first_number - second_number
+print(sub) 15 first_name = "tom"
+ '''
+
+
+print("welcome to my Ekuke calculator app")
+print('''1. addition
+2. subtraction
+3. multiplication
+4. division
+5. exponential
+'''
+)
+
+#Additional
+
+print("enter two numbers to add")
+first_number = float(input("first_number:"))
+second_number = float(input("second_number:"))
+sum = first_number + second_number
+print(f"{first_number} + {second_number} = {sum:.2f}")
+print("")
+
+
+print("enter two numbers to sub")
+first_number = float(input("first_number:"))
+second_number = float(input("second_number:"))
+sub = first_number - second_number
+print(f"{first_number} - {second_number} = {sub:.2f}")
+print("")
+
+
+# Multiplication 
+print("enter two numbers to mul")
+first_number = float(input("first_number:"))
+second_number = float(input("second_number:"))
+mul = first_number * second_number
+print(f"{first_number} * {second_number} = {mul:.2f}")
+print("")
+
+
+#Divisions
+print("enter two numbers to divide")
+first_number = float(input("first_number:"))
+second_number = float(input("second_number:"))
+div = first_number / second_number
+print(f"{first_number} divide by {second_number} = {div:.2f}")
+print("")
+
+
+# Exponentials
+print("enter two numbers to perform  exponential")
+first_number = float(input("first_number:"))
+second_number = float(input("second_number:"))
+exp = first_number ** second_number
+print(f"{first_number} ** {second_number} = {exp:.2f}")
+
+print("bye!!! 👋👋👋")

@@ -1,0 +1,17 @@
+✅ 1. Bio Character Preview Task
+📝 Question:
+Write a Python script that:
+
+Prompts the user to enter a bio.
+
+Prints the user's full input.
+
+Prints the length of the input.
+
+Displays the first 20 characters of the bio.
+
+Displays the last 20 characters in reverse order.
+
+Finally, prints the length of the reversed last 20 characters.
+
+📌 Bonus: Use slicing and the len() function appropriately.
