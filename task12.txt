@@ -1,0 +1,17 @@
+🧠 task12.py — Reverse Short Words
+Question:
+Write a Python program that takes a sentence from the user, and:
+
+Keeps only words that are less than 5 letters long
+
+Reverses each of those words
+
+Joins and prints them as a new sentence (in UPPERCASE)
+
+# Sample input:
+
+# Enter a sentence: Learn to code well and fast
+
+# Sample output:
+# OT DNA LLAF
+
