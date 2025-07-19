@@ -1,0 +1,8 @@
+✅ task11.py: Initials Formatter
+Ask for full name (first middle last), and print:
+
+Initials in uppercase (e.g., J.D.E)
+
+Total number of letters (excluding spaces)
+
+
