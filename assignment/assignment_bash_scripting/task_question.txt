@@ -1,4 +1,0 @@
-create a a bash script that takes score input from users, validates it, and returns the appropriate grade (A--F) 
-
-
-It should continue asking the user for input until user types exit, and it should provide help menu when the user types help.
