@@ -1,4 +1,0 @@
-✅ task10.py: List Editor
-Ask the user to input 5 favorite snacks separated by commas.
-Split them into a list, remove the last item using .pop(), then add "water" to the list.
-Finally, display the updated list.

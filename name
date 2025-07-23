@@ -1,0 +1,6 @@
+name = [4]
+name[0] = "joy"
+
+print(len(name))
+
+print(name)
