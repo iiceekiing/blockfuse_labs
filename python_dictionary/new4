@@ -1,0 +1,8 @@
+participants = {"VIP": "Alice", "Regular": "Bob", "Student": "Charlie"}
+participants["Guest"] = "Daisy"
+participants.pop("Student")
+participants_snapshot = participants.copy()
+participants.popitem()
+print(participants_snapshot)
+print(participants)
+

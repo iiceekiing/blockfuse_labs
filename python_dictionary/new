@@ -1,0 +1,45 @@
+rooms = {"101": "Alice", "102": "Bob", "103": "Charlie"}
+backup_rooms = rooms.copy()
+rooms["104"] = "Daisy"
+rooms.pop("102")
+rooms.pop("104")
+print("Room Allocation Backup:", backup_rooms)
+print("Updated Room Allocation:", rooms)
+
+
+
+
+
+"""
+Task 3: Hotel Room Allocation
+
+Initial room occupancy at Hill View Hotel:
+
+rooms = {"101": "Alice", "102": "Bob", "103": "Charlie"}
+
+During the evening:
+- A new guest "Daisy" was checked into room 104.
+- Room 102 was vacated after Bob checked out.
+- A last-minute cancellation happened for the most recently allocated room
+  just after the manager backed up the current allocation.
+"""
+
+# Initial room occupancy
+rooms = {"101": "Alice", "102": "Bob", "103": "Charlie"}
+
+# Back up current allocation before changes
+backup_rooms = rooms.copy()
+
+# Add Daisy to room 104
+rooms["104"] = "Daisy"
+
+# Remove Bob from room 102
+rooms.pop("102")
+
+# Last-minute cancellation (most recently allocated room: 104)
+rooms.pop("104")
+
+# Display reports
+print("Room Allocation Backup:", backup_rooms)
+print("Updated Room Allocation:", rooms)
+

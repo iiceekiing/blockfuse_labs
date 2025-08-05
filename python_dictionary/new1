@@ -1,0 +1,15 @@
+tickets = {"VIP": 50, "Regular": 150, "Student": 75}
+
+# Add new ticket category
+tickets["Backstage"] = 10
+
+# Remove sold-out category
+tickets.pop("Student")
+
+# Archive the day's sales
+todays_sales = tickets.copy()
+
+# Print final results
+print("Updated Ticket Categories:", tickets)
+print("Archived Sales Record:", todays_sales)
+
