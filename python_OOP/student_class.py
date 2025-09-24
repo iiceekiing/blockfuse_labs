@@ -1,6 +1,8 @@
 class Student:
 
     #points = int(input("Enter score: "))
+
+    
     def __init__(self, FirstName, LastName):
         self.FirstName = FirstName
         self.LastName = LastName
