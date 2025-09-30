@@ -1,0 +1,1358 @@
+[
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "adder",
+        "importPath": "test",
+        "description": "test",
+        "isExtraImport": true,
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "uppa",
+        "importPath": "python_scope.change_case",
+        "description": "python_scope.change_case",
+        "isExtraImport": true,
+        "detail": "python_scope.change_case",
+        "documentation": {}
+    },
+    {
+        "label": "uppa",
+        "importPath": "upper",
+        "description": "upper",
+        "isExtraImport": true,
+        "detail": "upper",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "control_flow.if_elif_else",
+        "description": "control_flow.if_elif_else",
+        "peekOfCode": "age = int(input(\"Please enter your age: \"))\nif age < 18:\n\tprint(\"you are a teenager\")\nelif age == 18:\n\tprint(\"your are early adult\")\nelse:\n\tprint(\"your are mature\")\n\"\"\"",
+        "detail": "control_flow.if_elif_else",
+        "documentation": {}
+    },
+    {
+        "label": "pwd",
+        "kind": 5,
+        "importPath": "handsOn_tasks.hash_passwd",
+        "description": "handsOn_tasks.hash_passwd",
+        "peekOfCode": "pwd = input(\"Enter your password: \")\nfirst = pwd[0]\nlenght  =  len(pwd)\nvisible = 2\nnum_stars = lenght - visible\nlast = pwd[-1]\nstars = \"*\" * num_stars\n#paswd = first+stars+last\nprint(f\"your passwordis: {first}{stars}{last}\")",
+        "detail": "handsOn_tasks.hash_passwd",
+        "documentation": {}
+    },
+    {
+        "label": "first",
+        "kind": 5,
+        "importPath": "handsOn_tasks.hash_passwd",
+        "description": "handsOn_tasks.hash_passwd",
+        "peekOfCode": "first = pwd[0]\nlenght  =  len(pwd)\nvisible = 2\nnum_stars = lenght - visible\nlast = pwd[-1]\nstars = \"*\" * num_stars\n#paswd = first+stars+last\nprint(f\"your passwordis: {first}{stars}{last}\")",
+        "detail": "handsOn_tasks.hash_passwd",
+        "documentation": {}
+    },
+    {
+        "label": "visible",
+        "kind": 5,
+        "importPath": "handsOn_tasks.hash_passwd",
+        "description": "handsOn_tasks.hash_passwd",
+        "peekOfCode": "visible = 2\nnum_stars = lenght - visible\nlast = pwd[-1]\nstars = \"*\" * num_stars\n#paswd = first+stars+last\nprint(f\"your passwordis: {first}{stars}{last}\")",
+        "detail": "handsOn_tasks.hash_passwd",
+        "documentation": {}
+    },
+    {
+        "label": "num_stars",
+        "kind": 5,
+        "importPath": "handsOn_tasks.hash_passwd",
+        "description": "handsOn_tasks.hash_passwd",
+        "peekOfCode": "num_stars = lenght - visible\nlast = pwd[-1]\nstars = \"*\" * num_stars\n#paswd = first+stars+last\nprint(f\"your passwordis: {first}{stars}{last}\")",
+        "detail": "handsOn_tasks.hash_passwd",
+        "documentation": {}
+    },
+    {
+        "label": "last",
+        "kind": 5,
+        "importPath": "handsOn_tasks.hash_passwd",
+        "description": "handsOn_tasks.hash_passwd",
+        "peekOfCode": "last = pwd[-1]\nstars = \"*\" * num_stars\n#paswd = first+stars+last\nprint(f\"your passwordis: {first}{stars}{last}\")",
+        "detail": "handsOn_tasks.hash_passwd",
+        "documentation": {}
+    },
+    {
+        "label": "stars",
+        "kind": 5,
+        "importPath": "handsOn_tasks.hash_passwd",
+        "description": "handsOn_tasks.hash_passwd",
+        "peekOfCode": "stars = \"*\" * num_stars\n#paswd = first+stars+last\nprint(f\"your passwordis: {first}{stars}{last}\")",
+        "detail": "handsOn_tasks.hash_passwd",
+        "documentation": {}
+    },
+    {
+        "label": "#paswd",
+        "kind": 5,
+        "importPath": "handsOn_tasks.hash_passwd",
+        "description": "handsOn_tasks.hash_passwd",
+        "peekOfCode": "#paswd = first+stars+last\nprint(f\"your passwordis: {first}{stars}{last}\")",
+        "detail": "handsOn_tasks.hash_passwd",
+        "documentation": {}
+    },
+    {
+        "label": "desk",
+        "kind": 5,
+        "importPath": "handsOn_tasks.list_01",
+        "description": "handsOn_tasks.list_01",
+        "peekOfCode": "desk = []\nstudent1 = input(\"Enter Student Name:  \")\nstudent2 = input(\"Enter Student Name:  \")\nstudent1 = input(\"Enter Student Name:  \")",
+        "detail": "handsOn_tasks.list_01",
+        "documentation": {}
+    },
+    {
+        "label": "student1",
+        "kind": 5,
+        "importPath": "handsOn_tasks.list_01",
+        "description": "handsOn_tasks.list_01",
+        "peekOfCode": "student1 = input(\"Enter Student Name:  \")\nstudent2 = input(\"Enter Student Name:  \")\nstudent1 = input(\"Enter Student Name:  \")",
+        "detail": "handsOn_tasks.list_01",
+        "documentation": {}
+    },
+    {
+        "label": "student2",
+        "kind": 5,
+        "importPath": "handsOn_tasks.list_01",
+        "description": "handsOn_tasks.list_01",
+        "peekOfCode": "student2 = input(\"Enter Student Name:  \")\nstudent1 = input(\"Enter Student Name:  \")",
+        "detail": "handsOn_tasks.list_01",
+        "documentation": {}
+    },
+    {
+        "label": "student1",
+        "kind": 5,
+        "importPath": "handsOn_tasks.list_01",
+        "description": "handsOn_tasks.list_01",
+        "peekOfCode": "student1 = input(\"Enter Student Name:  \")",
+        "detail": "handsOn_tasks.list_01",
+        "documentation": {}
+    },
+    {
+        "label": "pwd",
+        "kind": 5,
+        "importPath": "handsOn_tasks.new",
+        "description": "handsOn_tasks.new",
+        "peekOfCode": "pwd = input(\"Enter your password let me hash for your: \")\nfirst = pwd[0]\nlast = pwd[-1]\nvisible = 2\nlen_pwd = len(pwd)\nhidden = len_pwd - visible\nstarts = \"*\" * hidden\nprint(f\"hashed password is: {first}{starts}{last}\")",
+        "detail": "handsOn_tasks.new",
+        "documentation": {}
+    },
+    {
+        "label": "first",
+        "kind": 5,
+        "importPath": "handsOn_tasks.new",
+        "description": "handsOn_tasks.new",
+        "peekOfCode": "first = pwd[0]\nlast = pwd[-1]\nvisible = 2\nlen_pwd = len(pwd)\nhidden = len_pwd - visible\nstarts = \"*\" * hidden\nprint(f\"hashed password is: {first}{starts}{last}\")",
+        "detail": "handsOn_tasks.new",
+        "documentation": {}
+    },
+    {
+        "label": "last",
+        "kind": 5,
+        "importPath": "handsOn_tasks.new",
+        "description": "handsOn_tasks.new",
+        "peekOfCode": "last = pwd[-1]\nvisible = 2\nlen_pwd = len(pwd)\nhidden = len_pwd - visible\nstarts = \"*\" * hidden\nprint(f\"hashed password is: {first}{starts}{last}\")",
+        "detail": "handsOn_tasks.new",
+        "documentation": {}
+    },
+    {
+        "label": "visible",
+        "kind": 5,
+        "importPath": "handsOn_tasks.new",
+        "description": "handsOn_tasks.new",
+        "peekOfCode": "visible = 2\nlen_pwd = len(pwd)\nhidden = len_pwd - visible\nstarts = \"*\" * hidden\nprint(f\"hashed password is: {first}{starts}{last}\")",
+        "detail": "handsOn_tasks.new",
+        "documentation": {}
+    },
+    {
+        "label": "len_pwd",
+        "kind": 5,
+        "importPath": "handsOn_tasks.new",
+        "description": "handsOn_tasks.new",
+        "peekOfCode": "len_pwd = len(pwd)\nhidden = len_pwd - visible\nstarts = \"*\" * hidden\nprint(f\"hashed password is: {first}{starts}{last}\")",
+        "detail": "handsOn_tasks.new",
+        "documentation": {}
+    },
+    {
+        "label": "hidden",
+        "kind": 5,
+        "importPath": "handsOn_tasks.new",
+        "description": "handsOn_tasks.new",
+        "peekOfCode": "hidden = len_pwd - visible\nstarts = \"*\" * hidden\nprint(f\"hashed password is: {first}{starts}{last}\")",
+        "detail": "handsOn_tasks.new",
+        "documentation": {}
+    },
+    {
+        "label": "starts",
+        "kind": 5,
+        "importPath": "handsOn_tasks.new",
+        "description": "handsOn_tasks.new",
+        "peekOfCode": "starts = \"*\" * hidden\nprint(f\"hashed password is: {first}{starts}{last}\")",
+        "detail": "handsOn_tasks.new",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "pld.PEMDAS",
+        "description": "pld.PEMDAS",
+        "peekOfCode": "result = 2 + 3 * 4 ** 2\nprint(result)\nresult = (2 + 3) * 4 ** 2\nprint(result)",
+        "detail": "pld.PEMDAS",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "pld.PEMDAS",
+        "description": "pld.PEMDAS",
+        "peekOfCode": "result = (2 + 3) * 4 ** 2\nprint(result)",
+        "detail": "pld.PEMDAS",
+        "documentation": {}
+    },
+    {
+        "label": "sentence",
+        "kind": 5,
+        "importPath": "pld.index_slice",
+        "description": "pld.index_slice",
+        "peekOfCode": "sentence = \"LearningPython\"\nprint(sentence[8:]) \nword = \"PYTHONIC\"\nprint(word[::2])\nlang = \"Programming\"\nprint(lang[3:8])  # Slice from 4th to 8th character (g to a)\ntext = \"HelloWorld\"\n#print(text[::-1]) \n#print(text[-1:-11:-1])\nprint(text[::1])",
+        "detail": "pld.index_slice",
+        "documentation": {}
+    },
+    {
+        "label": "word",
+        "kind": 5,
+        "importPath": "pld.index_slice",
+        "description": "pld.index_slice",
+        "peekOfCode": "word = \"PYTHONIC\"\nprint(word[::2])\nlang = \"Programming\"\nprint(lang[3:8])  # Slice from 4th to 8th character (g to a)\ntext = \"HelloWorld\"\n#print(text[::-1]) \n#print(text[-1:-11:-1])\nprint(text[::1])\nalpha = \"abcdefghij\"\nprint(alpha[1:8:3]) ",
+        "detail": "pld.index_slice",
+        "documentation": {}
+    },
+    {
+        "label": "lang",
+        "kind": 5,
+        "importPath": "pld.index_slice",
+        "description": "pld.index_slice",
+        "peekOfCode": "lang = \"Programming\"\nprint(lang[3:8])  # Slice from 4th to 8th character (g to a)\ntext = \"HelloWorld\"\n#print(text[::-1]) \n#print(text[-1:-11:-1])\nprint(text[::1])\nalpha = \"abcdefghij\"\nprint(alpha[1:8:3]) \nphrase = \"PythonIsFun\"\nprint(phrase[-3:]) ",
+        "detail": "pld.index_slice",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "pld.index_slice",
+        "description": "pld.index_slice",
+        "peekOfCode": "text = \"HelloWorld\"\n#print(text[::-1]) \n#print(text[-1:-11:-1])\nprint(text[::1])\nalpha = \"abcdefghij\"\nprint(alpha[1:8:3]) \nphrase = \"PythonIsFun\"\nprint(phrase[-3:]) \nname = \"Aisha\"\nprint(name[:3])",
+        "detail": "pld.index_slice",
+        "documentation": {}
+    },
+    {
+        "label": "alpha",
+        "kind": 5,
+        "importPath": "pld.index_slice",
+        "description": "pld.index_slice",
+        "peekOfCode": "alpha = \"abcdefghij\"\nprint(alpha[1:8:3]) \nphrase = \"PythonIsFun\"\nprint(phrase[-3:]) \nname = \"Aisha\"\nprint(name[:3])\n'''\nquote = \"SimplicityIsTheKey\"\nprint(quote[::3]) \nsentence = \"Let'sLearnPython\"",
+        "detail": "pld.index_slice",
+        "documentation": {}
+    },
+    {
+        "label": "phrase",
+        "kind": 5,
+        "importPath": "pld.index_slice",
+        "description": "pld.index_slice",
+        "peekOfCode": "phrase = \"PythonIsFun\"\nprint(phrase[-3:]) \nname = \"Aisha\"\nprint(name[:3])\n'''\nquote = \"SimplicityIsTheKey\"\nprint(quote[::3]) \nsentence = \"Let'sLearnPython\"\nprint(sentence[5:10:2])",
+        "detail": "pld.index_slice",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "pld.index_slice",
+        "description": "pld.index_slice",
+        "peekOfCode": "name = \"Aisha\"\nprint(name[:3])\n'''\nquote = \"SimplicityIsTheKey\"\nprint(quote[::3]) \nsentence = \"Let'sLearnPython\"\nprint(sentence[5:10:2])",
+        "detail": "pld.index_slice",
+        "documentation": {}
+    },
+    {
+        "label": "quote",
+        "kind": 5,
+        "importPath": "pld.index_slice",
+        "description": "pld.index_slice",
+        "peekOfCode": "quote = \"SimplicityIsTheKey\"\nprint(quote[::3]) \nsentence = \"Let'sLearnPython\"\nprint(sentence[5:10:2])",
+        "detail": "pld.index_slice",
+        "documentation": {}
+    },
+    {
+        "label": "sentence",
+        "kind": 5,
+        "importPath": "pld.index_slice",
+        "description": "pld.index_slice",
+        "peekOfCode": "sentence = \"Let'sLearnPython\"\nprint(sentence[5:10:2])",
+        "detail": "pld.index_slice",
+        "documentation": {}
+    },
+    {
+        "label": "temp",
+        "kind": 5,
+        "importPath": "pld.temp",
+        "description": "pld.temp",
+        "peekOfCode": "temp = \"peerlearning\"\n#start stop(end) \n#start, stop, step.\nprint(temp[0::2]) \nprint(temp[::2]) \n#print(temp[::-1])",
+        "detail": "pld.temp",
+        "documentation": {}
+    },
+    {
+        "label": "AttendanceRegister",
+        "kind": 6,
+        "importPath": "python-assignment-8.python-assignment-8.attendance",
+        "description": "python-assignment-8.python-assignment-8.attendance",
+        "peekOfCode": "class AttendanceRegister:\n    def __init__(self):\n        self.register = {}\n    def mark_present(self, student_name):\n        self.register[student_name] = \"Present\"\n    def mark_absent(self, student_name):\n        self.register[student_name] = \"Absent\"\n    def get_status(self, student_name):\n        return self.register.get(student_name, \"No record found\")\n    def show_register(self):",
+        "detail": "python-assignment-8.python-assignment-8.attendance",
+        "documentation": {}
+    },
+    {
+        "label": "AttendanceRegister",
+        "kind": 6,
+        "importPath": "python-assignment-8.python-assignment-8.attendance_answer",
+        "description": "python-assignment-8.python-assignment-8.attendance_answer",
+        "peekOfCode": "class AttendanceRegister:\nattendance = {}\ndef register_student(student_id, name):\n    if student_id not in attendance:\n        attendance[student_id] = {\n            \"name\": name,\n            \"present_days\": [],\n            \"absent_days\": []\n        }\n    else:",
+        "detail": "python-assignment-8.python-assignment-8.attendance_answer",
+        "documentation": {}
+    },
+    {
+        "label": "register_student",
+        "kind": 2,
+        "importPath": "python-assignment-8.python-assignment-8.attendance_answer",
+        "description": "python-assignment-8.python-assignment-8.attendance_answer",
+        "peekOfCode": "def register_student(student_id, name):\n    if student_id not in attendance:\n        attendance[student_id] = {\n            \"name\": name,\n            \"present_days\": [],\n            \"absent_days\": []\n        }\n    else:\n        print(f\"Student ID {student_id} already exists.\")\ndef mark_present(student_ids):",
+        "detail": "python-assignment-8.python-assignment-8.attendance_answer",
+        "documentation": {}
+    },
+    {
+        "label": "mark_present",
+        "kind": 2,
+        "importPath": "python-assignment-8.python-assignment-8.attendance_answer",
+        "description": "python-assignment-8.python-assignment-8.attendance_answer",
+        "peekOfCode": "def mark_present(student_ids):\n    today = str(datetime.date.today())\n    for student in student_ids:\n        if student in attendance:\n            if today not in attendance[student][\"present_days\"]:\n                attendance[student][\"present_days\"].append(today)\n            # remove from absent if wrongly marked\n            if today in attendance[student][\"absent_days\"]:\n                attendance[student][\"absent_days\"].remove(today)\n        else:",
+        "detail": "python-assignment-8.python-assignment-8.attendance_answer",
+        "documentation": {}
+    },
+    {
+        "label": "mark_absent",
+        "kind": 2,
+        "importPath": "python-assignment-8.python-assignment-8.attendance_answer",
+        "description": "python-assignment-8.python-assignment-8.attendance_answer",
+        "peekOfCode": "def mark_absent(student_ids):\n    today = str(datetime.date.today())\n    for student in student_ids:\n        if student in attendance:\n            if today not in attendance[student][\"absent_days\"]:\n                attendance[student][\"absent_days\"].append(today)\n            if today in attendance[student][\"present_days\"]:\n                attendance[student][\"present_days\"].remove(today)\n        else:\n            print(f\"Student ID {student} not registered.\")",
+        "detail": "python-assignment-8.python-assignment-8.attendance_answer",
+        "documentation": {}
+    },
+    {
+        "label": "get_report",
+        "kind": 2,
+        "importPath": "python-assignment-8.python-assignment-8.attendance_answer",
+        "description": "python-assignment-8.python-assignment-8.attendance_answer",
+        "peekOfCode": "def get_report(**kwargs):\n    report = {}\n    for student, data in attendance.items():\n        if kwargs.get(\"only_present\") and not data[\"present_days\"]:\n            continue\n        if kwargs.get(\"only_absent\") and not data[\"absent_days\"]:\n            continue\n        report[student] = data\n    return report\nregister_student(\"S1\", \"Alice\")",
+        "detail": "python-assignment-8.python-assignment-8.attendance_answer",
+        "documentation": {}
+    },
+    {
+        "label": "attendance",
+        "kind": 5,
+        "importPath": "python-assignment-8.python-assignment-8.attendance_answer",
+        "description": "python-assignment-8.python-assignment-8.attendance_answer",
+        "peekOfCode": "attendance = {}\ndef register_student(student_id, name):\n    if student_id not in attendance:\n        attendance[student_id] = {\n            \"name\": name,\n            \"present_days\": [],\n            \"absent_days\": []\n        }\n    else:\n        print(f\"Student ID {student_id} already exists.\")",
+        "detail": "python-assignment-8.python-assignment-8.attendance_answer",
+        "documentation": {}
+    },
+    {
+        "label": "BankAccount",
+        "kind": 6,
+        "importPath": "python-assignment-8.python-assignment-8.bank",
+        "description": "python-assignment-8.python-assignment-8.bank",
+        "peekOfCode": "class BankAccount:\n    def __init__(self, initial_balance=0):\n        self.name = {}\n        self.initial_balance = initial_balance\n    def deposit(self, name, amount):\n        if name in self.name:\n            self.name[name] += amount\n        else:\n            self.name[name] = amount\n    def withdraw(self, name, amount):",
+        "detail": "python-assignment-8.python-assignment-8.bank",
+        "documentation": {}
+    },
+    {
+        "label": "Calculator",
+        "kind": 6,
+        "importPath": "python-assignment-8.python-assignment-8.calculator_answer",
+        "description": "python-assignment-8.python-assignment-8.calculator_answer",
+        "peekOfCode": "class Calculator:\n    def add(self, num1, num2):\n        return num1 + num2\n    def subtract(self, num1, num2):\n        return num1 - num2\n    def multiply(self, num1, num2):\n        return num1 * num2              \n    def divide(self, num1, num2):\n        if num2 == 0:\n            return \"Error: cannot divide by zero\"",
+        "detail": "python-assignment-8.python-assignment-8.calculator_answer",
+        "documentation": {}
+    },
+    {
+        "label": "calc",
+        "kind": 5,
+        "importPath": "python-assignment-8.python-assignment-8.calculator_answer",
+        "description": "python-assignment-8.python-assignment-8.calculator_answer",
+        "peekOfCode": "calc = Calculator()\nprint(calc.add(5, 3))\nprint(calc.subtract(10, 4))\nprint(calc.multiply(2, 4))",
+        "detail": "python-assignment-8.python-assignment-8.calculator_answer",
+        "documentation": {}
+    },
+    {
+        "label": "ShoppingCart",
+        "kind": 6,
+        "importPath": "python-assignment-8.python-assignment-8.cart",
+        "description": "python-assignment-8.python-assignment-8.cart",
+        "peekOfCode": "class ShoppingCart:\n    def __init__(self, price_list):\n        self.items = {}\n        self.price_list = price_list\n    def add_item(self, item, quantity=1):\n        if item in self.items:\n            self.items[item] += quantity\n        else:\n            self.items[item] = quantity\n    def remove_item(self, item, quantity=1):",
+        "detail": "python-assignment-8.python-assignment-8.cart",
+        "documentation": {}
+    },
+    {
+        "label": "prices",
+        "kind": 5,
+        "importPath": "python-assignment-8.python-assignment-8.cart",
+        "description": "python-assignment-8.python-assignment-8.cart",
+        "peekOfCode": "prices = {\"Shirt\": 5000, \"Shoes\": 12000}\ncart = ShoppingCart(prices)\ncart.add_item(\"Shirt\", 2)\nprint(cart.calculate_total())\ncart.remove_item(\"Shirt\", 1)\nprint(cart.calculate_total())  \ncart.add_item(\"Shoes\", 1)\nprint(cart.calculate_total()) \ncart.clear_cart()\nprint(cart.calculate_total())",
+        "detail": "python-assignment-8.python-assignment-8.cart",
+        "documentation": {}
+    },
+    {
+        "label": "cart",
+        "kind": 5,
+        "importPath": "python-assignment-8.python-assignment-8.cart",
+        "description": "python-assignment-8.python-assignment-8.cart",
+        "peekOfCode": "cart = ShoppingCart(prices)\ncart.add_item(\"Shirt\", 2)\nprint(cart.calculate_total())\ncart.remove_item(\"Shirt\", 1)\nprint(cart.calculate_total())  \ncart.add_item(\"Shoes\", 1)\nprint(cart.calculate_total()) \ncart.clear_cart()\nprint(cart.calculate_total())",
+        "detail": "python-assignment-8.python-assignment-8.cart",
+        "documentation": {}
+    },
+    {
+        "label": "AttendanceRegister",
+        "kind": 6,
+        "importPath": "python-assignment-8.python-assignment-8.import datetime",
+        "description": "python-assignment-8.python-assignment-8.import datetime",
+        "peekOfCode": "class AttendanceRegister:\n    def __init__(self):\n        \"\"\"\n        Constructor method that initializes the main dictionary to store\n        all students' attendance records.\n        Example structure:\n        {\n            \"Alice\": {\"present_days\": [\"2025-09-03\"], \"absent_days\": []},\n            \"Bob\":   {\"present_days\": [], \"absent_days\": [\"2025-09-03\"]}\n        }",
+        "detail": "python-assignment-8.python-assignment-8.import datetime",
+        "documentation": {}
+    },
+    {
+        "label": "AttendanceRegister",
+        "kind": 6,
+        "importPath": "python-assignment-8.attendance_answer",
+        "description": "python-assignment-8.attendance_answer",
+        "peekOfCode": "class AttendanceRegister:\n    def __init__(self):\n        self.attendance_records = {}\n    def register_student(self, student_name):\n        if student_name not in self.attendance_records:\n            self.attendance_records[student_name] = {\n                \"present_days\": [],\n                \"absent_days\": []\n            }\n        else:",
+        "detail": "python-assignment-8.attendance_answer",
+        "documentation": {}
+    },
+    {
+        "label": "student1",
+        "kind": 5,
+        "importPath": "python-assignment-8.attendance_answer",
+        "description": "python-assignment-8.attendance_answer",
+        "peekOfCode": "student1 = AttendanceRegister()\nstudent1.register_student(\"John\")\nstudent1.register_student(\"John\")\nprint(student1.attendance_records)\nstudent1.mark_present(\"John\")\nprint(student1.get_status(\"John\"))\nprint(student1.show_register())",
+        "detail": "python-assignment-8.attendance_answer",
+        "documentation": {}
+    },
+    {
+        "label": "Iterator",
+        "kind": 6,
+        "importPath": "python_OOP.class_iter_task",
+        "description": "python_OOP.class_iter_task",
+        "peekOfCode": "class Iterator:\n    def __iter__(self):\n        self.x = 1\n        return self\n    def __next__(self):\n        if self.x < len( ):\n            y = self.x\n            self.x += 1\n            return y\n        else:",
+        "detail": "python_OOP.class_iter_task",
+        "documentation": {}
+    },
+    {
+        "label": "CountDown",
+        "kind": 6,
+        "importPath": "python_OOP.count_down_task",
+        "description": "python_OOP.count_down_task",
+        "peekOfCode": "class CountDown:\n    def __init__(self, stop: int, direction: str):\n        self.stop = stop\n        self.direction = direction\n    def __iter__(self):\n        self.start = 1 if self.direction == \"up\" else self.stop \n        return self\n    def __next__(self):\n        if self.direction == \"up\":\n            if self.start <= self.stop:",
+        "detail": "python_OOP.count_down_task",
+        "documentation": {}
+    },
+    {
+        "label": "new",
+        "kind": 5,
+        "importPath": "python_OOP.count_down_task",
+        "description": "python_OOP.count_down_task",
+        "peekOfCode": "new = CountDown(5, \"down\")\ntemp = iter(new)\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint()\nprint(\"next printing for up\")\ntime.sleep(2)",
+        "detail": "python_OOP.count_down_task",
+        "documentation": {}
+    },
+    {
+        "label": "temp",
+        "kind": 5,
+        "importPath": "python_OOP.count_down_task",
+        "description": "python_OOP.count_down_task",
+        "peekOfCode": "temp = iter(new)\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint()\nprint(\"next printing for up\")\ntime.sleep(2)\nprint()",
+        "detail": "python_OOP.count_down_task",
+        "documentation": {}
+    },
+    {
+        "label": "new",
+        "kind": 5,
+        "importPath": "python_OOP.count_down_task",
+        "description": "python_OOP.count_down_task",
+        "peekOfCode": "new = CountDown(5, \"up\")\ntemp = iter(new)\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))",
+        "detail": "python_OOP.count_down_task",
+        "documentation": {}
+    },
+    {
+        "label": "temp",
+        "kind": 5,
+        "importPath": "python_OOP.count_down_task",
+        "description": "python_OOP.count_down_task",
+        "peekOfCode": "temp = iter(new)\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))",
+        "detail": "python_OOP.count_down_task",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "kind": 6,
+        "importPath": "python_OOP.student_class",
+        "description": "python_OOP.student_class",
+        "peekOfCode": "class Student:\n    #points = int(input(\"Enter score: \"))\n    def __init__(self, FirstName, LastName):\n        self.FirstName = FirstName\n        self.LastName = LastName\n        self.Scores = []\n    def full_name(self):\n        return f\"{self.FirstName} {self.LastName}\"\n    def total_score(self):\n        return sum(self.Scores)",
+        "detail": "python_OOP.student_class",
+        "documentation": {}
+    },
+    {
+        "label": "iceking",
+        "kind": 5,
+        "importPath": "python_OOP.student_class",
+        "description": "python_OOP.student_class",
+        "peekOfCode": "iceking = Student(\"Ice\", \"King\")\niceking.add_new_score(10)\niceking.add_new_score(20)\niceking.add_new_score(7)\niceking.add_new_score(8)\nprint(iceking.max_score())",
+        "detail": "python_OOP.student_class",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 5,
+        "importPath": "python_dictionary.student_dict",
+        "description": "python_dictionary.student_dict",
+        "peekOfCode": "student = {\n    \"name\": \"Tom\",\n    \"department\": \"Computer Science\",\n    \"grades\" : [{\"csc 111\": 90, \"math\": 50, \"physics\": 70}, [1, 2, 3, 4], {\"bio\": {\"name\": \"joy\", \"age\": 18}}],\n    'address': {\"city\": \"Jos\", \"town\": \"Rayfield\", \"Street\": \"Atiku Street\"},\n    \"hobbies\": [\"Trading\", \"Reading\", \"Coding\", \"Praying\"]\n}\n#print(student)\nprint('')\nprint('')",
+        "detail": "python_dictionary.student_dict",
+        "documentation": {}
+    },
+    {
+        "label": "food",
+        "kind": 5,
+        "importPath": "python_dictionary.tasks1",
+        "description": "python_dictionary.tasks1",
+        "peekOfCode": "food = {\"gotteh\", \"furah da nunu\", \"masa\", \"awara\", \"gotteh\"}\nprint(type(food))\ncheck = input(\"Please type any local food to check if it's in the menu: \")\nif check in food:\n    print(f\"Yes there's {check} in the list of food\")\nelse:\n    print(\"not found\")",
+        "detail": "python_dictionary.tasks1",
+        "documentation": {}
+    },
+    {
+        "label": "check",
+        "kind": 5,
+        "importPath": "python_dictionary.tasks1",
+        "description": "python_dictionary.tasks1",
+        "peekOfCode": "check = input(\"Please type any local food to check if it's in the menu: \")\nif check in food:\n    print(f\"Yes there's {check} in the list of food\")\nelse:\n    print(\"not found\")",
+        "detail": "python_dictionary.tasks1",
+        "documentation": {}
+    },
+    {
+        "label": "read_input",
+        "kind": 2,
+        "importPath": "python_error_handling.task",
+        "description": "python_error_handling.task",
+        "peekOfCode": "def read_input(prompt, min, max):\n    execute = True\n    while execute:\n        try:\n            value = int(input(prompt))\n            if min <= value <= max:\n                print(f\"you entered: {value}\")\n                print(\"Good bye!\")\n                execute = False\n            else:",
+        "detail": "python_error_handling.task",
+        "documentation": {}
+    },
+    {
+        "label": "adder",
+        "kind": 2,
+        "importPath": "python_error_handling.test",
+        "description": "python_error_handling.test",
+        "peekOfCode": "def adder(x, y):\n    return x + y\nif __name__ == \"__main__\":\n    num1 = int(input(\"Enter first number: \"))\n    num2 = int(input(\"Enter second number: \"))\n    result = adder(num1, num2)\n    print(f\"The sum of {num1} and {num2} is {result}\")",
+        "detail": "python_error_handling.test",
+        "documentation": {}
+    },
+    {
+        "label": "AccountType",
+        "kind": 6,
+        "importPath": "python_error_handling.try_and_except",
+        "description": "python_error_handling.try_and_except",
+        "peekOfCode": "class AccountType:\n    SAVINGS = \"savings\"\n    CURRENT = \"current\"\n    BUSINESS = \"business\"\nprint(AccountType._members_)",
+        "detail": "python_error_handling.try_and_except",
+        "documentation": {}
+    },
+    {
+        "label": "enums_",
+        "kind": 2,
+        "importPath": "python_error_handling.try_and_except",
+        "description": "python_error_handling.try_and_except",
+        "peekOfCode": "def enums_(cls):\n    cls._members_ = {k: v for v, k in enumerate(cls.__dict__) if not k.startswith('_')}\n    return cls\n@enums_\nclass AccountType:\n    SAVINGS = \"savings\"\n    CURRENT = \"current\"\n    BUSINESS = \"business\"\nprint(AccountType._members_)",
+        "detail": "python_error_handling.try_and_except",
+        "documentation": {}
+    },
+    {
+        "label": "show",
+        "kind": 2,
+        "importPath": "python_functions.function_revision",
+        "description": "python_functions.function_revision",
+        "peekOfCode": "def show():\n    nom = user_name()\n    print(f\"hello {nom}\")\ndef user_name():\n    name = input(\"Enter your name:  \")\n    return name\nshow()\narray = []\ndef collector():\n    num = input(\"Enter multiple numbers separated with space: \").split()",
+        "detail": "python_functions.function_revision",
+        "documentation": {}
+    },
+    {
+        "label": "user_name",
+        "kind": 2,
+        "importPath": "python_functions.function_revision",
+        "description": "python_functions.function_revision",
+        "peekOfCode": "def user_name():\n    name = input(\"Enter your name:  \")\n    return name\nshow()\narray = []\ndef collector():\n    num = input(\"Enter multiple numbers separated with space: \").split()\n    for item in num:\n        return num\ndef updater():",
+        "detail": "python_functions.function_revision",
+        "documentation": {}
+    },
+    {
+        "label": "collector",
+        "kind": 2,
+        "importPath": "python_functions.function_revision",
+        "description": "python_functions.function_revision",
+        "peekOfCode": "def collector():\n    num = input(\"Enter multiple numbers separated with space: \").split()\n    for item in num:\n        return num\ndef updater():\n    data = collector()\n    print(array.append(data))\nupdater()\narray = []\narray = []",
+        "detail": "python_functions.function_revision",
+        "documentation": {}
+    },
+    {
+        "label": "updater",
+        "kind": 2,
+        "importPath": "python_functions.function_revision",
+        "description": "python_functions.function_revision",
+        "peekOfCode": "def updater():\n    data = collector()\n    print(array.append(data))\nupdater()\narray = []\narray = []\ndef collector():\n    num = input(\"Enter multiple numbers separated with space: \").split()\n    numbers = [int(item) for item in num]\n    return numbers",
+        "detail": "python_functions.function_revision",
+        "documentation": {}
+    },
+    {
+        "label": "collector",
+        "kind": 2,
+        "importPath": "python_functions.function_revision",
+        "description": "python_functions.function_revision",
+        "peekOfCode": "def collector():\n    num = input(\"Enter multiple numbers separated with space: \").split()\n    numbers = [int(item) for item in num]\n    return numbers\ndef updater():\n    data = collector()      \n    array.extend(data)        \n    print(array)           \nupdater()\ndef num1():",
+        "detail": "python_functions.function_revision",
+        "documentation": {}
+    },
+    {
+        "label": "updater",
+        "kind": 2,
+        "importPath": "python_functions.function_revision",
+        "description": "python_functions.function_revision",
+        "peekOfCode": "def updater():\n    data = collector()      \n    array.extend(data)        \n    print(array)           \nupdater()\ndef num1():\n    number1 = int(input(\"Enter any number (first number): \"))\n    return number1\ndef num2():\n    number2 = int(input(\"Enter any number(second number): \"))",
+        "detail": "python_functions.function_revision",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 2,
+        "importPath": "python_functions.function_revision",
+        "description": "python_functions.function_revision",
+        "peekOfCode": "def num1():\n    number1 = int(input(\"Enter any number (first number): \"))\n    return number1\ndef num2():\n    number2 = int(input(\"Enter any number(second number): \"))\n    return number2\ndef adder():\n    first_number = num1()\n    second_number = num2()\n    added = first_number + second_number",
+        "detail": "python_functions.function_revision",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 2,
+        "importPath": "python_functions.function_revision",
+        "description": "python_functions.function_revision",
+        "peekOfCode": "def num2():\n    number2 = int(input(\"Enter any number(second number): \"))\n    return number2\ndef adder():\n    first_number = num1()\n    second_number = num2()\n    added = first_number + second_number\n    print(f\"the sum of {first_number} + {second_number} is = {added}\")\nadder()",
+        "detail": "python_functions.function_revision",
+        "documentation": {}
+    },
+    {
+        "label": "adder",
+        "kind": 2,
+        "importPath": "python_functions.function_revision",
+        "description": "python_functions.function_revision",
+        "peekOfCode": "def adder():\n    first_number = num1()\n    second_number = num2()\n    added = first_number + second_number\n    print(f\"the sum of {first_number} + {second_number} is = {added}\")\nadder()",
+        "detail": "python_functions.function_revision",
+        "documentation": {}
+    },
+    {
+        "label": "array",
+        "kind": 5,
+        "importPath": "python_functions.function_revision",
+        "description": "python_functions.function_revision",
+        "peekOfCode": "array = []\ndef collector():\n    num = input(\"Enter multiple numbers separated with space: \").split()\n    for item in num:\n        return num\ndef updater():\n    data = collector()\n    print(array.append(data))\nupdater()\narray = []",
+        "detail": "python_functions.function_revision",
+        "documentation": {}
+    },
+    {
+        "label": "array",
+        "kind": 5,
+        "importPath": "python_functions.function_revision",
+        "description": "python_functions.function_revision",
+        "peekOfCode": "array = []\narray = []\ndef collector():\n    num = input(\"Enter multiple numbers separated with space: \").split()\n    numbers = [int(item) for item in num]\n    return numbers\ndef updater():\n    data = collector()      \n    array.extend(data)        \n    print(array)           ",
+        "detail": "python_functions.function_revision",
+        "documentation": {}
+    },
+    {
+        "label": "array",
+        "kind": 5,
+        "importPath": "python_functions.function_revision",
+        "description": "python_functions.function_revision",
+        "peekOfCode": "array = []\ndef collector():\n    num = input(\"Enter multiple numbers separated with space: \").split()\n    numbers = [int(item) for item in num]\n    return numbers\ndef updater():\n    data = collector()      \n    array.extend(data)        \n    print(array)           \nupdater()",
+        "detail": "python_functions.function_revision",
+        "documentation": {}
+    },
+    {
+        "label": "say_hello",
+        "kind": 2,
+        "importPath": "python_functions.hello_world",
+        "description": "python_functions.hello_world",
+        "peekOfCode": "def say_hello():\n\tprint(\"hello world!\")\nsay_hello()\n'''\n''' Tasks (Do These):\nCreate a function called greet that prints your name.\ndef greet():\n\tname = input(\"please enter your name: \")\n\tprint(\"Hello!  \" + name)\ngreet()",
+        "detail": "python_functions.hello_world",
+        "documentation": {}
+    },
+    {
+        "label": "greet",
+        "kind": 2,
+        "importPath": "python_functions.hello_world",
+        "description": "python_functions.hello_world",
+        "peekOfCode": "def greet():\n\tname = input(\"please enter your name: \")\n\tprint(\"Hello!  \" + name)\ngreet()\n'''\n'''\n a function that:\nTakes one parameter: name\nConverts the name to uppercase\nAdds three exclamation marks (!!!)",
+        "detail": "python_functions.hello_world",
+        "documentation": {}
+    },
+    {
+        "label": "shout_name",
+        "kind": 2,
+        "importPath": "python_functions.hello_world",
+        "description": "python_functions.hello_world",
+        "peekOfCode": "def shout_name(name):\n\tprint(name.upper() + \"!!!\")\nshout_name(\"ice\")\n'''",
+        "detail": "python_functions.hello_world",
+        "documentation": {}
+    },
+    {
+        "label": "\tname",
+        "kind": 5,
+        "importPath": "python_functions.hello_world",
+        "description": "python_functions.hello_world",
+        "peekOfCode": "\tname = input(\"please enter your name: \")\n\tprint(\"Hello!  \" + name)\ngreet()\n'''\n'''\n a function that:\nTakes one parameter: name\nConverts the name to uppercase\nAdds three exclamation marks (!!!)",
+        "detail": "python_functions.hello_world",
+        "documentation": {}
+    },
+    {
+        "label": "MyNumbers",
+        "kind": 6,
+        "importPath": "python_functions.iterator_iterable",
+        "description": "python_functions.iterator_iterable",
+        "peekOfCode": "class MyNumbers:\n  def __iter__(self):\n    self.a = 1\n    return self\n  def __next__(self):\n    x = self.a\n    self.a += 1\n    return x\nmyclass = MyNumbers()\nmyiter = iter(myclass)",
+        "detail": "python_functions.iterator_iterable",
+        "documentation": {}
+    },
+    {
+        "label": "MyNumbers",
+        "kind": 6,
+        "importPath": "python_functions.iterator_iterable",
+        "description": "python_functions.iterator_iterable",
+        "peekOfCode": "class MyNumbers:\n  def __iter__(self):\n    self.a = 1\n    return self\n  def __next__(self):\n    if self.a <= 20:\n      x = self.a\n      self.a += 1\n      return x\n    else:",
+        "detail": "python_functions.iterator_iterable",
+        "documentation": {}
+    },
+    {
+        "label": "my_tupple",
+        "kind": 5,
+        "importPath": "python_functions.iterator_iterable",
+        "description": "python_functions.iterator_iterable",
+        "peekOfCode": "my_tupple = (\"joe\", \"john\", \"doe\", \"ice\")\nprint(hasattr(my_tupple, \"__iter__\"))\nclass MyNumbers:\n  def __iter__(self):\n    self.a = 1\n    return self\n  def __next__(self):\n    x = self.a\n    self.a += 1\n    return x",
+        "detail": "python_functions.iterator_iterable",
+        "documentation": {}
+    },
+    {
+        "label": "myclass",
+        "kind": 5,
+        "importPath": "python_functions.iterator_iterable",
+        "description": "python_functions.iterator_iterable",
+        "peekOfCode": "myclass = MyNumbers()\nmyiter = iter(myclass)\nclass MyNumbers:\n  def __iter__(self):\n    self.a = 1\n    return self\n  def __next__(self):\n    if self.a <= 20:\n      x = self.a\n      self.a += 1",
+        "detail": "python_functions.iterator_iterable",
+        "documentation": {}
+    },
+    {
+        "label": "myiter",
+        "kind": 5,
+        "importPath": "python_functions.iterator_iterable",
+        "description": "python_functions.iterator_iterable",
+        "peekOfCode": "myiter = iter(myclass)\nclass MyNumbers:\n  def __iter__(self):\n    self.a = 1\n    return self\n  def __next__(self):\n    if self.a <= 20:\n      x = self.a\n      self.a += 1\n      return x",
+        "detail": "python_functions.iterator_iterable",
+        "documentation": {}
+    },
+    {
+        "label": "myclass",
+        "kind": 5,
+        "importPath": "python_functions.iterator_iterable",
+        "description": "python_functions.iterator_iterable",
+        "peekOfCode": "myclass = MyNumbers()\nmyiter = iter(myclass)\nfor x in myiter:\n  print(x)",
+        "detail": "python_functions.iterator_iterable",
+        "documentation": {}
+    },
+    {
+        "label": "myiter",
+        "kind": 5,
+        "importPath": "python_functions.iterator_iterable",
+        "description": "python_functions.iterator_iterable",
+        "peekOfCode": "myiter = iter(myclass)\nfor x in myiter:\n  print(x)",
+        "detail": "python_functions.iterator_iterable",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "python_functions.json",
+        "description": "python_functions.json",
+        "peekOfCode": "x =  '{ \"name\":\"John\", \"age\":30, \"city\":\"New York\"}'\n# parse x:\ny = json.loads(x)\n# the result is a Python dictionary:\nprint(y[\"age\"])\nimport json\n# a Python object (dict):\nx = {\n  \"name\": \"John\",\n  \"age\": 30,",
+        "detail": "python_functions.json",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "python_functions.json",
+        "description": "python_functions.json",
+        "peekOfCode": "y = json.loads(x)\n# the result is a Python dictionary:\nprint(y[\"age\"])\nimport json\n# a Python object (dict):\nx = {\n  \"name\": \"John\",\n  \"age\": 30,\n  \"city\": \"New York\"\n}",
+        "detail": "python_functions.json",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "python_functions.json",
+        "description": "python_functions.json",
+        "peekOfCode": "x = {\n  \"name\": \"John\",\n  \"age\": 30,\n  \"city\": \"New York\"\n}\n# convert into JSON:\ny = json.dumps(x)\n# the result is a JSON string:\nprint(y)",
+        "detail": "python_functions.json",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "python_functions.json",
+        "description": "python_functions.json",
+        "peekOfCode": "y = json.dumps(x)\n# the result is a JSON string:\nprint(y)",
+        "detail": "python_functions.json",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "python_intro.home_task",
+        "description": "python_intro.home_task",
+        "peekOfCode": "age = int(input(\"what is your age: \"))\nname = input(\"Enter your name:  \")\nhobbies = input(\"Please your hobbies: \")\nprint(\" \")\nprint(type(age))\nprint(\" \")\ntime.sleep(1)\nprint(type(name)) \nprint(\" \")\ntime.sleep(1)",
+        "detail": "python_intro.home_task",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "python_intro.home_task",
+        "description": "python_intro.home_task",
+        "peekOfCode": "name = input(\"Enter your name:  \")\nhobbies = input(\"Please your hobbies: \")\nprint(\" \")\nprint(type(age))\nprint(\" \")\ntime.sleep(1)\nprint(type(name)) \nprint(\" \")\ntime.sleep(1)\nprint(type(hobbies))",
+        "detail": "python_intro.home_task",
+        "documentation": {}
+    },
+    {
+        "label": "hobbies",
+        "kind": 5,
+        "importPath": "python_intro.home_task",
+        "description": "python_intro.home_task",
+        "peekOfCode": "hobbies = input(\"Please your hobbies: \")\nprint(\" \")\nprint(type(age))\nprint(\" \")\ntime.sleep(1)\nprint(type(name)) \nprint(\" \")\ntime.sleep(1)\nprint(type(hobbies))",
+        "detail": "python_intro.home_task",
+        "documentation": {}
+    },
+    {
+        "label": "case_changer",
+        "kind": 2,
+        "importPath": "python_scope.change_case",
+        "description": "python_scope.change_case",
+        "peekOfCode": "def case_changer(s: str) -> str:\n    if not isinstance(s, str):\n        raise ValueError(\"Input must be a string\")\n    elif s == \"\":\n        raise ValueError(\"hello Ekuke! your input cannot be empty\\n Please enter a valid string\")\n    elif s.isspace():\n        raise ValueError(\"Oopps!: Input string cannot be just whitespace\\ncannot convert empty string to upper/lower case\")\n    elif any(char.isdigit() for char in s):\n        raise ValueError(\"Input string cannot contain numbers\")\n    elif any(not char.isalnum() and not char.isspace() for char in s):",
+        "detail": "python_scope.change_case",
+        "documentation": {}
+    },
+    {
+        "label": "myfunc",
+        "kind": 2,
+        "importPath": "python_scope.global_local_variables",
+        "description": "python_scope.global_local_variables",
+        "peekOfCode": "def myfunc():\n  x = 300\n  print(x)\nmyfunc()",
+        "detail": "python_scope.global_local_variables",
+        "documentation": {}
+    },
+    {
+        "label": "temp",
+        "kind": 5,
+        "importPath": "python_scope.is_methods_in_python",
+        "description": "python_scope.is_methods_in_python",
+        "peekOfCode": "temp = input(\"Enter anything: \")\nif isinstance(temp, str):\n    print(f\"{temp} is a string\")\nelif isinstance(temp, int):\n    print(f\"{temp} is an integer\")\nelif isinstance(temp, float):\n    print(f\"{temp} is a float\")\nelif isinstance(temp, list):\n    print(f\"{temp} is a list\")\nelif isinstance(temp, dict):    ",
+        "detail": "python_scope.is_methods_in_python",
+        "documentation": {}
+    },
+    {
+        "label": "#days",
+        "kind": 5,
+        "importPath": "python_set.days_of_the_week",
+        "description": "python_set.days_of_the_week",
+        "peekOfCode": "#days = {}\n#print(type(days))\n#sets = set()\n#print(type(sets))\nDOW = {'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Monday'}\nprint(type(DOW))\nprint(len(DOW))\nprint(DOW)",
+        "detail": "python_set.days_of_the_week",
+        "documentation": {}
+    },
+    {
+        "label": "#sets",
+        "kind": 5,
+        "importPath": "python_set.days_of_the_week",
+        "description": "python_set.days_of_the_week",
+        "peekOfCode": "#sets = set()\n#print(type(sets))\nDOW = {'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Monday'}\nprint(type(DOW))\nprint(len(DOW))\nprint(DOW)",
+        "detail": "python_set.days_of_the_week",
+        "documentation": {}
+    },
+    {
+        "label": "DOW",
+        "kind": 5,
+        "importPath": "python_set.days_of_the_week",
+        "description": "python_set.days_of_the_week",
+        "peekOfCode": "DOW = {'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Monday'}\nprint(type(DOW))\nprint(len(DOW))\nprint(DOW)",
+        "detail": "python_set.days_of_the_week",
+        "documentation": {}
+    },
+    {
+        "label": "#ints",
+        "kind": 5,
+        "importPath": "python_set.sets",
+        "description": "python_set.sets",
+        "peekOfCode": "#ints = {1, 2, 3, 3, 4, 5, 6, 6, 7}\n#strings = {'joy', 'joe', 'mimi', 'krix'}\n#boolean = {True, False, 1}\nfloats = {7.55, 10.5, 55.0, 20.8, 30.2}\n#types = {20.00, 7, {'name: joy', 'id: 1001'}, 'joy'}\n#print(ints)\n#print(strings)\n#print(boolean)\n#print(len(boolean))\nprint(floats)",
+        "detail": "python_set.sets",
+        "documentation": {}
+    },
+    {
+        "label": "#strings",
+        "kind": 5,
+        "importPath": "python_set.sets",
+        "description": "python_set.sets",
+        "peekOfCode": "#strings = {'joy', 'joe', 'mimi', 'krix'}\n#boolean = {True, False, 1}\nfloats = {7.55, 10.5, 55.0, 20.8, 30.2}\n#types = {20.00, 7, {'name: joy', 'id: 1001'}, 'joy'}\n#print(ints)\n#print(strings)\n#print(boolean)\n#print(len(boolean))\nprint(floats)\n#print(types)",
+        "detail": "python_set.sets",
+        "documentation": {}
+    },
+    {
+        "label": "#boolean",
+        "kind": 5,
+        "importPath": "python_set.sets",
+        "description": "python_set.sets",
+        "peekOfCode": "#boolean = {True, False, 1}\nfloats = {7.55, 10.5, 55.0, 20.8, 30.2}\n#types = {20.00, 7, {'name: joy', 'id: 1001'}, 'joy'}\n#print(ints)\n#print(strings)\n#print(boolean)\n#print(len(boolean))\nprint(floats)\n#print(types)\nfloats.clear()",
+        "detail": "python_set.sets",
+        "documentation": {}
+    },
+    {
+        "label": "floats",
+        "kind": 5,
+        "importPath": "python_set.sets",
+        "description": "python_set.sets",
+        "peekOfCode": "floats = {7.55, 10.5, 55.0, 20.8, 30.2}\n#types = {20.00, 7, {'name: joy', 'id: 1001'}, 'joy'}\n#print(ints)\n#print(strings)\n#print(boolean)\n#print(len(boolean))\nprint(floats)\n#print(types)\nfloats.clear()\nprint(floats)",
+        "detail": "python_set.sets",
+        "documentation": {}
+    },
+    {
+        "label": "#types",
+        "kind": 5,
+        "importPath": "python_set.sets",
+        "description": "python_set.sets",
+        "peekOfCode": "#types = {20.00, 7, {'name: joy', 'id: 1001'}, 'joy'}\n#print(ints)\n#print(strings)\n#print(boolean)\n#print(len(boolean))\nprint(floats)\n#print(types)\nfloats.clear()\nprint(floats)\n'''",
+        "detail": "python_set.sets",
+        "documentation": {}
+    },
+    {
+        "label": "pri_colors",
+        "kind": 5,
+        "importPath": "python_set.sets",
+        "description": "python_set.sets",
+        "peekOfCode": "pri_colors = {\"Red\", \"Yellow\"}\nprint(pri_colors)\nprint(len(pri_colors))\npri_colors.add(\"Blue\")\nprint(pri_colors)\nprint(len(pri_colors))\npri_colors.add(\"Purple\")\nprint(pri_colors)\n#pri_colors.remove('Purple')\npri_colors.discard(\"Green\")",
+        "detail": "python_set.sets",
+        "documentation": {}
+    },
+    {
+        "label": "msg",
+        "kind": 5,
+        "importPath": "python_strings.string_methods",
+        "description": "python_strings.string_methods",
+        "peekOfCode": "msg = \"GhostNet#X44CR#98.654#TRC8821-0XGhngtr64%fR$\"\n''' \nformat this using the arrangement method below, using the .split() method\nCodeName:    | GhostNet\nMessageCode: | X44CR\nlastletter:  | R\nTraceID:     | TRC8821\nTraceable:   | Yes\nseverityLevel| 98.65\n'''",
+        "detail": "python_strings.string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "new",
+        "kind": 5,
+        "importPath": "python_strings.string_methods",
+        "description": "python_strings.string_methods",
+        "peekOfCode": "new = re.split(r\"[#-]\", msg)\nprint(new)\n#print(new_msg[1])\n#print(f\"",
+        "detail": "python_strings.string_methods",
+        "documentation": {}
+    },
+    {
+        "label": "car_name",
+        "kind": 5,
+        "importPath": "car_logic",
+        "description": "car_logic",
+        "peekOfCode": "car_name = input(\"\"\"\n                 🚗 Welcome to Ice Car Collection.\n                 Enter the name of your car: \n                 \\n\"\"\")\ncar_isOn = False\nwhile True:\n    option = input(\"\"\"\n    Select any option below to perform corresponding action.\n    _________________________________\n    |   1. 'start' to start your car. |",
+        "detail": "car_logic",
+        "documentation": {}
+    },
+    {
+        "label": "car_isOn",
+        "kind": 5,
+        "importPath": "car_logic",
+        "description": "car_logic",
+        "peekOfCode": "car_isOn = False\nwhile True:\n    option = input(\"\"\"\n    Select any option below to perform corresponding action.\n    _________________________________\n    |   1. 'start' to start your car. |\n    |---------------------------------|\n    |   2. 'D' to drive.              |\n    |---------------------------------|\n    |   3. 'R' to reverse.            |",
+        "detail": "car_logic",
+        "documentation": {}
+    },
+    {
+        "label": "amount",
+        "kind": 5,
+        "importPath": "checker",
+        "description": "checker",
+        "peekOfCode": "amount = int(input(\"Enter amount: \"))\nif amount > 50000:\n    discount = (0/100)*(amount)\n    price = amount - discount\n    print(f\"your purchase is greater 50k, you have got 20% of, now paying: \", price)\nelif  amount >= 30000 and amount <= 50000:\n    discount = (10/100)*(amount)\n    price= amount-discount\n    print(\"10% off now paying: \", price)\nelif amount >= 10000 and  amount <=30000:",
+        "detail": "checker",
+        "documentation": {}
+    },
+    {
+        "label": "records",
+        "kind": 5,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "records = {\n    {\"student1\": 'john', \"department\": \"csc\", \"score\": 100},\n    {\"student2\": 'iceking', \"department\": 'csc', \"score\": 77},\n    {\"student3\": \"butteren\", \"department\"\ntotal = []\naverage = []\nfor record in records:\n     data = {records['name']: (records['department'], records['score'])}",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "total",
+        "kind": 5,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "total = []\naverage = []\nfor record in records:\n     data = {records['name']: (records['department'], records['score'])}",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "average",
+        "kind": 5,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "average = []\nfor record in records:\n     data = {records['name']: (records['department'], records['score'])}",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "customer",
+        "kind": 5,
+        "importPath": "discount",
+        "description": "discount",
+        "peekOfCode": "customer = {\n    'name': \"Godiya\",\n    \"order_amount\": 25000,\n    \"loyalty_card\": True,\n    \"is_student\": False\n}\namount = customer[\"order_amount\"]\ndiscount = (10/100)*(amount)\nprice = amount - discount\n#print(price)",
+        "detail": "discount",
+        "documentation": {}
+    },
+    {
+        "label": "amount",
+        "kind": 5,
+        "importPath": "discount",
+        "description": "discount",
+        "peekOfCode": "amount = customer[\"order_amount\"]\ndiscount = (10/100)*(amount)\nprice = amount - discount\n#print(price)\nwhile True:\n    if customer['loyalty_card'] == True:\n        #print(f\"you have a royal card, enjoy 10% discount, you are now paying: \",  amount - discount)\n        print(f\"you have a royal card, enjoy 10% discount, you are now paying: \",  price)\n    if customer['order_amount'] > 20000:\n        discount = (5/100)*(price)",
+        "detail": "discount",
+        "documentation": {}
+    },
+    {
+        "label": "discount",
+        "kind": 5,
+        "importPath": "discount",
+        "description": "discount",
+        "peekOfCode": "discount = (10/100)*(amount)\nprice = amount - discount\n#print(price)\nwhile True:\n    if customer['loyalty_card'] == True:\n        #print(f\"you have a royal card, enjoy 10% discount, you are now paying: \",  amount - discount)\n        print(f\"you have a royal card, enjoy 10% discount, you are now paying: \",  price)\n    if customer['order_amount'] > 20000:\n        discount = (5/100)*(price)\n        price -= discount",
+        "detail": "discount",
+        "documentation": {}
+    },
+    {
+        "label": "price",
+        "kind": 5,
+        "importPath": "discount",
+        "description": "discount",
+        "peekOfCode": "price = amount - discount\n#print(price)\nwhile True:\n    if customer['loyalty_card'] == True:\n        #print(f\"you have a royal card, enjoy 10% discount, you are now paying: \",  amount - discount)\n        print(f\"you have a royal card, enjoy 10% discount, you are now paying: \",  price)\n    if customer['order_amount'] > 20000:\n        discount = (5/100)*(price)\n        price -= discount\n        print(price)",
+        "detail": "discount",
+        "documentation": {}
+    },
+    {
+        "label": "order_summary",
+        "kind": 5,
+        "importPath": "discount",
+        "description": "discount",
+        "peekOfCode": "order_summary = {}\norder_summary.update(customer)\n#print(order_summary)\norder_summary['initial_amount'] = customer['order_amount']\norder_summary['final_amount'] = price\norder_summary['final_discount'] = discount\nprint('\\norder summary for cashier: ', order_summary)",
+        "detail": "discount",
+        "documentation": {}
+    },
+    {
+        "label": "order_summary['initial_amount']",
+        "kind": 5,
+        "importPath": "discount",
+        "description": "discount",
+        "peekOfCode": "order_summary['initial_amount'] = customer['order_amount']\norder_summary['final_amount'] = price\norder_summary['final_discount'] = discount\nprint('\\norder summary for cashier: ', order_summary)",
+        "detail": "discount",
+        "documentation": {}
+    },
+    {
+        "label": "order_summary['final_amount']",
+        "kind": 5,
+        "importPath": "discount",
+        "description": "discount",
+        "peekOfCode": "order_summary['final_amount'] = price\norder_summary['final_discount'] = discount\nprint('\\norder summary for cashier: ', order_summary)",
+        "detail": "discount",
+        "documentation": {}
+    },
+    {
+        "label": "order_summary['final_discount']",
+        "kind": 5,
+        "importPath": "discount",
+        "description": "discount",
+        "peekOfCode": "order_summary['final_discount'] = discount\nprint('\\norder summary for cashier: ', order_summary)",
+        "detail": "discount",
+        "documentation": {}
+    },
+    {
+        "label": "customer",
+        "kind": 5,
+        "importPath": "ekuke",
+        "description": "ekuke",
+        "peekOfCode": "customer = {\n    'name': \"Godiya\",\n    \"order_amount\": 25000,\n    \"loyalty_card\": True,\n    \"is_student\": False\n}\namount = customer[\"order_amount\"]\ndiscount = (10/100)*(amount)\nprice = amount - discount\n#print(price)",
+        "detail": "ekuke",
+        "documentation": {}
+    },
+    {
+        "label": "amount",
+        "kind": 5,
+        "importPath": "ekuke",
+        "description": "ekuke",
+        "peekOfCode": "amount = customer[\"order_amount\"]\ndiscount = (10/100)*(amount)\nprice = amount - discount\n#print(price)\nwhile True:\n    if customer['loyalty_card'] == True:\n        #print(f\"you have a royal card, enjoy 10% discount, you are now paying: \",  amount - discount)\n        print(f\"you have a royal card, enjoy 10% discount, you are now paying: \",  price)\n    if customer['order_amount'] > 20000:\n        discount = (5/100)*(price)",
+        "detail": "ekuke",
+        "documentation": {}
+    },
+    {
+        "label": "discount",
+        "kind": 5,
+        "importPath": "ekuke",
+        "description": "ekuke",
+        "peekOfCode": "discount = (10/100)*(amount)\nprice = amount - discount\n#print(price)\nwhile True:\n    if customer['loyalty_card'] == True:\n        #print(f\"you have a royal card, enjoy 10% discount, you are now paying: \",  amount - discount)\n        print(f\"you have a royal card, enjoy 10% discount, you are now paying: \",  price)\n    if customer['order_amount'] > 20000:\n        discount = (5/100)*(price)\n        price -= discount",
+        "detail": "ekuke",
+        "documentation": {}
+    },
+    {
+        "label": "price",
+        "kind": 5,
+        "importPath": "ekuke",
+        "description": "ekuke",
+        "peekOfCode": "price = amount - discount\n#print(price)\nwhile True:\n    if customer['loyalty_card'] == True:\n        #print(f\"you have a royal card, enjoy 10% discount, you are now paying: \",  amount - discount)\n        print(f\"you have a royal card, enjoy 10% discount, you are now paying: \",  price)\n    if customer['order_amount'] > 20000:\n        discount = (5/100)*(price)\n        price -= discount\n        print(price)",
+        "detail": "ekuke",
+        "documentation": {}
+    },
+    {
+        "label": "order_summary",
+        "kind": 5,
+        "importPath": "ekuke",
+        "description": "ekuke",
+        "peekOfCode": "order_summary = {}\norder_summary.update(customer)\n#print(order_summary)\norder_summary['order_amount'] = price\nprint('\\norder summary for cashier: ', order_summary)",
+        "detail": "ekuke",
+        "documentation": {}
+    },
+    {
+        "label": "order_summary['order_amount']",
+        "kind": 5,
+        "importPath": "ekuke",
+        "description": "ekuke",
+        "peekOfCode": "order_summary['order_amount'] = price\nprint('\\norder summary for cashier: ', order_summary)",
+        "detail": "ekuke",
+        "documentation": {}
+    },
+    {
+        "label": "car_name",
+        "kind": 5,
+        "importPath": "ekuke_car",
+        "description": "ekuke_car",
+        "peekOfCode": "car_name = input(\"\"\"\n                 🚗 Welcome to Ice Car Collection.\n                 Enter the name of your car: \n                 \"\"\")\ncar_isOn = False \nwhile True:\n    option = input(\"\"\"\n    Select any option below to perform corresponding action.\n    _________________________________\n    |   1. 'start' to start your car. |",
+        "detail": "ekuke_car",
+        "documentation": {}
+    },
+    {
+        "label": "car_isOn",
+        "kind": 5,
+        "importPath": "ekuke_car",
+        "description": "ekuke_car",
+        "peekOfCode": "car_isOn = False \nwhile True:\n    option = input(\"\"\"\n    Select any option below to perform corresponding action.\n    _________________________________\n    |   1. 'start' to start your car. |\n    |---------------------------------|\n    |   2. 'D' to drive.              |\n    |---------------------------------|\n    |   3. 'R' to reverse.            |",
+        "detail": "ekuke_car",
+        "documentation": {}
+    },
+    {
+        "label": "nums",
+        "kind": 5,
+        "importPath": "list_loop",
+        "description": "list_loop",
+        "peekOfCode": "nums = [1,2,3,4,5,6,7,8,9]\nchars = \"iceking\"\nfor num in nums:\n    print(num)\nfor i in chars: print(\"\\n\"i)",
+        "detail": "list_loop",
+        "documentation": {}
+    },
+    {
+        "label": "chars",
+        "kind": 5,
+        "importPath": "list_loop",
+        "description": "list_loop",
+        "peekOfCode": "chars = \"iceking\"\nfor num in nums:\n    print(num)\nfor i in chars: print(\"\\n\"i)",
+        "detail": "list_loop",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "never_settle",
+        "description": "never_settle",
+        "peekOfCode": "data = {\n    \"academy\": {\n        \"departments\": {\n            \"web\": {\n                \"students\": [\n                    {\"name\": \"Ali\", \"age\": 20, \"skills\": [\"HTML\", \"CSS\", \"JS\"]},\n                    {\"name\": \"Joy\", \"age\": 22, \"skills\": [\"Python\", \"Django\"]}\n                ],\n                \"active\": True\n            },",
+        "detail": "never_settle",
+        "documentation": {}
+    },
+    {
+        "label": "new",
+        "kind": 5,
+        "importPath": "newly",
+        "description": "newly",
+        "peekOfCode": "new = [\"\"\"\"\"\"]\nif new:\n    print(len(new))",
+        "detail": "newly",
+        "documentation": {}
+    },
+    {
+        "label": "pin",
+        "kind": 5,
+        "importPath": "passwd",
+        "description": "passwd",
+        "peekOfCode": "pin = int(input(\"enter pin\"))\npwd = 1975\nif pin != pwd:\n    print(\"incorrect password\")\nprint(\"login successful!; welcome\")",
+        "detail": "passwd",
+        "documentation": {}
+    },
+    {
+        "label": "pwd",
+        "kind": 5,
+        "importPath": "passwd",
+        "description": "passwd",
+        "peekOfCode": "pwd = 1975\nif pin != pwd:\n    print(\"incorrect password\")\nprint(\"login successful!; welcome\")",
+        "detail": "passwd",
+        "documentation": {}
+    },
+    {
+        "label": "students",
+        "kind": 5,
+        "importPath": "student",
+        "description": "student",
+        "peekOfCode": "students = {}\ntotal_students = 3\nfor i in range (total_students):\n    student_name = input(\"please enter student name: \")\n    department =  input(\"enter department: \")\n    print(\"Please remeber to separate each score with a space  \")\n    score = input(\"enter three  scores for this student: \").split()\n    #print(score)\n    data = {\n        \"name\": student_name,",
+        "detail": "student",
+        "documentation": {}
+    },
+    {
+        "label": "total_students",
+        "kind": 5,
+        "importPath": "student",
+        "description": "student",
+        "peekOfCode": "total_students = 3\nfor i in range (total_students):\n    student_name = input(\"please enter student name: \")\n    department =  input(\"enter department: \")\n    print(\"Please remeber to separate each score with a space  \")\n    score = input(\"enter three  scores for this student: \").split()\n    #print(score)\n    data = {\n        \"name\": student_name,\n        \"department\": department,",
+        "detail": "student",
+        "documentation": {}
+    },
+    {
+        "label": "students",
+        "kind": 5,
+        "importPath": "tasks",
+        "description": "tasks",
+        "peekOfCode": "students = {\n    \"iceking\": {\"dp\": \"csc\", \"score\": [60, 40, 20]}\n}\nfor name, value in students.items():\n    total = sum(students[name]['score'])\n    print(\"total score is: \" total)",
+        "detail": "tasks",
+        "documentation": {}
+    },
+    {
+        "label": "students",
+        "kind": 5,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "students = {}\ntotal_students = 3\nfor i in range(total_students):\n    student_name = input(\"Please enter student name: \")\n    department = input(\"Enter department: \")\n    print(\"Please remember to separate each score with a space\")\n    score = input(\"Enter three scores for this student: \").split()\n    score = list(map(int, score))  # Convert all to integers\n    data = {\n        \"name\": student_name,",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "total_students",
+        "kind": 5,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "total_students = 3\nfor i in range(total_students):\n    student_name = input(\"Please enter student name: \")\n    department = input(\"Enter department: \")\n    print(\"Please remember to separate each score with a space\")\n    score = input(\"Enter three scores for this student: \").split()\n    score = list(map(int, score))  # Convert all to integers\n    data = {\n        \"name\": student_name,\n        \"department\": department,",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "students",
+        "kind": 5,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "students = {\n    \"iceking\": {\"dp\": \"csc\", \"score\": [60, 40, 20]}\n}\nstudents.update({\"total\": sum(score)})\nfor name, value in students.items():\n    print(f\"total score is: {name[\"total\"]}\")",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "kind": 5,
+        "importPath": "that_works",
+        "description": "that_works",
+        "peekOfCode": "user = {\n    \"name\": \"Godiya\",\n    \"age\": 22,\n    \"skills\": [\"Python\", \"Django\", \"SQL\"],\n    \"is_student\": True,\n    \"address\": {\n        \"city\": \"Jos\",\n        \"state\": \"Plateau\",\n        \"zip\": 93001\n    }",
+        "detail": "that_works",
+        "documentation": {}
+    },
+    {
+        "label": "word",
+        "kind": 5,
+        "importPath": "unique",
+        "description": "unique",
+        "peekOfCode": "word = input(\"type any word and i will print the unique characters for you!:  \").lower()\nprint(f\"you've typed {word}, i will sort it and print the unique chars for you  \")\nunique = set(word)\norder = []\n#print(unique)\nfor i in unique:\n    print(i, end=\"\")\nprint(\" \")",
+        "detail": "unique",
+        "documentation": {}
+    },
+    {
+        "label": "unique",
+        "kind": 5,
+        "importPath": "unique",
+        "description": "unique",
+        "peekOfCode": "unique = set(word)\norder = []\n#print(unique)\nfor i in unique:\n    print(i, end=\"\")\nprint(\" \")",
+        "detail": "unique",
+        "documentation": {}
+    },
+    {
+        "label": "order",
+        "kind": 5,
+        "importPath": "unique",
+        "description": "unique",
+        "peekOfCode": "order = []\n#print(unique)\nfor i in unique:\n    print(i, end=\"\")\nprint(\" \")",
+        "detail": "unique",
+        "documentation": {}
+    }
+]

@@ -1,4 +1,7 @@
-from upper import uppa
+from python_scope.change_case import uppa
+import time
 
-# new = "hiiiii"
+
+
 print(uppa("helloooooo"))
+
