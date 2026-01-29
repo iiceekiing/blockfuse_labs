@@ -1,0 +1,83 @@
+[
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "Iterator",
+        "kind": 6,
+        "importPath": "class_iter_task",
+        "description": "class_iter_task",
+        "peekOfCode": "class Iterator:\n    def __iter__(self):\n        self.x = 1\n        return self\n    def __next__(self):\n        if self.x < len( ):\n            y = self.x\n            self.x += 1\n            return y\n        else:",
+        "detail": "class_iter_task",
+        "documentation": {}
+    },
+    {
+        "label": "CountDown",
+        "kind": 6,
+        "importPath": "count_down_task",
+        "description": "count_down_task",
+        "peekOfCode": "class CountDown:\n    def __init__(self, stop: int, direction: str):\n        self.stop = stop\n        self.direction = direction\n    def __iter__(self):\n        self.start = 1 if self.direction == \"up\" else self.stop \n        return self\n    def __next__(self):\n        if self.direction == \"up\":\n            if self.start <= self.stop:",
+        "detail": "count_down_task",
+        "documentation": {}
+    },
+    {
+        "label": "new",
+        "kind": 5,
+        "importPath": "count_down_task",
+        "description": "count_down_task",
+        "peekOfCode": "new = CountDown(5, \"down\")\ntemp = iter(new)\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint()\nprint(\"next printing for up\")\ntime.sleep(2)",
+        "detail": "count_down_task",
+        "documentation": {}
+    },
+    {
+        "label": "temp",
+        "kind": 5,
+        "importPath": "count_down_task",
+        "description": "count_down_task",
+        "peekOfCode": "temp = iter(new)\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint()\nprint(\"next printing for up\")\ntime.sleep(2)\nprint()",
+        "detail": "count_down_task",
+        "documentation": {}
+    },
+    {
+        "label": "new",
+        "kind": 5,
+        "importPath": "count_down_task",
+        "description": "count_down_task",
+        "peekOfCode": "new = CountDown(5, \"up\")\ntemp = iter(new)\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))",
+        "detail": "count_down_task",
+        "documentation": {}
+    },
+    {
+        "label": "temp",
+        "kind": 5,
+        "importPath": "count_down_task",
+        "description": "count_down_task",
+        "peekOfCode": "temp = iter(new)\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))\nprint(next(temp, \"Out of range\"))",
+        "detail": "count_down_task",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "kind": 6,
+        "importPath": "student_class",
+        "description": "student_class",
+        "peekOfCode": "class Student:\n    #points = int(input(\"Enter score: \"))\n    def __init__(self, FirstName, LastName):\n        self.FirstName = FirstName\n        self.LastName = LastName\n        self.Scores = []\n    def full_name(self):\n        return f\"{self.FirstName} {self.LastName}\"\n    def total_score(self):\n        return sum(self.Scores)",
+        "detail": "student_class",
+        "documentation": {}
+    },
+    {
+        "label": "iceking",
+        "kind": 5,
+        "importPath": "student_class",
+        "description": "student_class",
+        "peekOfCode": "iceking = Student(\"Ice\", \"King\")\niceking.add_new_score(10)\niceking.add_new_score(20)\niceking.add_new_score(7)\niceking.add_new_score(8)\nprint(iceking.max_score())",
+        "detail": "student_class",
+        "documentation": {}
+    }
+]

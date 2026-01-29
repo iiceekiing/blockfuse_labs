@@ -413,6 +413,24 @@
     {
         "label": "Calculator",
         "kind": 6,
+        "importPath": "python-assignment-8.python-assignment-8.calculator",
+        "description": "python-assignment-8.python-assignment-8.calculator",
+        "peekOfCode": "class Calculator:\n    def __init__(self):\n        pass\n    def add(self, num1: int, num2: int) -> int:\n        return num1 + num2\n    def sub(self, num1: int, num2: int) -> int:\n        return num1 - num2\n    def mul(self, num1: int, num2: int) -> int:\n        return num1 * num2\n    def div(self, num1: int, num2: int) -> int:",
+        "detail": "python-assignment-8.python-assignment-8.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "calc",
+        "kind": 5,
+        "importPath": "python-assignment-8.python-assignment-8.calculator",
+        "description": "python-assignment-8.python-assignment-8.calculator",
+        "peekOfCode": "calc = Calculator()\nprint(calc.add(4, 6))\nprint()\nprint(calc.mul(4, 6))\nprint()\nprint(calc.div(4, -2))\nprint()\nprint(calc.sub(4, 6))",
+        "detail": "python-assignment-8.python-assignment-8.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "Calculator",
+        "kind": 6,
         "importPath": "python-assignment-8.python-assignment-8.calculator_answer",
         "description": "python-assignment-8.python-assignment-8.calculator_answer",
         "peekOfCode": "class Calculator:\n    def add(self, num1, num2):\n        return num1 + num2\n    def subtract(self, num1, num2):\n        return num1 - num2\n    def multiply(self, num1, num2):\n        return num1 * num2              \n    def divide(self, num1, num2):\n        if num2 == 0:\n            return \"Error: cannot divide by zero\"",
@@ -442,7 +460,7 @@
         "kind": 5,
         "importPath": "python-assignment-8.python-assignment-8.cart",
         "description": "python-assignment-8.python-assignment-8.cart",
-        "peekOfCode": "prices = {\"Shirt\": 5000, \"Shoes\": 12000}\ncart = ShoppingCart(prices)\ncart.add_item(\"Shirt\", 2)\nprint(cart.calculate_total())\ncart.remove_item(\"Shirt\", 1)\nprint(cart.calculate_total())  \ncart.add_item(\"Shoes\", 1)\nprint(cart.calculate_total()) \ncart.clear_cart()\nprint(cart.calculate_total())",
+        "peekOfCode": "prices = {\"Shirt\": 5000, \"Shoes\": 12000}\ncart = ShoppingCart(prices)\ncart.add_item(\"Shirt\", 2)\nprint \n# print(cart.calculate_total())\n# cart.remove_item(\"Shirt\", 1)\n# print(cart.calculate_total())  \n# cart.add_item(\"Shoes\", 1)\n# print(cart.calculate_total()) \n# cart.clear_cart()",
         "detail": "python-assignment-8.python-assignment-8.cart",
         "documentation": {}
     },
@@ -451,7 +469,7 @@
         "kind": 5,
         "importPath": "python-assignment-8.python-assignment-8.cart",
         "description": "python-assignment-8.python-assignment-8.cart",
-        "peekOfCode": "cart = ShoppingCart(prices)\ncart.add_item(\"Shirt\", 2)\nprint(cart.calculate_total())\ncart.remove_item(\"Shirt\", 1)\nprint(cart.calculate_total())  \ncart.add_item(\"Shoes\", 1)\nprint(cart.calculate_total()) \ncart.clear_cart()\nprint(cart.calculate_total())",
+        "peekOfCode": "cart = ShoppingCart(prices)\ncart.add_item(\"Shirt\", 2)\nprint \n# print(cart.calculate_total())\n# cart.remove_item(\"Shirt\", 1)\n# print(cart.calculate_total())  \n# cart.add_item(\"Shoes\", 1)\n# print(cart.calculate_total()) \n# cart.clear_cart()\n# print(cart.calculate_total())",
         "detail": "python-assignment-8.python-assignment-8.cart",
         "documentation": {}
     },
@@ -462,6 +480,24 @@
         "description": "python-assignment-8.python-assignment-8.import datetime",
         "peekOfCode": "class AttendanceRegister:\n    def __init__(self):\n        \"\"\"\n        Constructor method that initializes the main dictionary to store\n        all students' attendance records.\n        Example structure:\n        {\n            \"Alice\": {\"present_days\": [\"2025-09-03\"], \"absent_days\": []},\n            \"Bob\":   {\"present_days\": [], \"absent_days\": [\"2025-09-03\"]}\n        }",
         "detail": "python-assignment-8.python-assignment-8.import datetime",
+        "documentation": {}
+    },
+    {
+        "label": "ShoppingCart",
+        "kind": 6,
+        "importPath": "python-assignment-8.python-assignment-8.shopping_cart",
+        "description": "python-assignment-8.python-assignment-8.shopping_cart",
+        "peekOfCode": "class ShoppingCart:",
+        "detail": "python-assignment-8.python-assignment-8.shopping_cart",
+        "documentation": {}
+    },
+    {
+        "label": "AttendanceRegister",
+        "kind": 6,
+        "importPath": "python-assignment-8.python-assignment-8.temp",
+        "description": "python-assignment-8.python-assignment-8.temp",
+        "peekOfCode": "class AttendanceRegister:\n    def __init__(self):\n        \"\"\"\n        Constructor method that initializes the main dictionary to store\n        all students' attendance records.\n        Example structure:\n        {\n            \"Alice\": {\"present_days\": [\"2025-09-03\"], \"absent_days\": []},\n            \"Bob\":   {\"present_days\": [], \"absent_days\": [\"2025-09-03\"]}\n        }",
+        "detail": "python-assignment-8.python-assignment-8.temp",
         "documentation": {}
     },
     {
@@ -582,12 +618,129 @@
         "documentation": {}
     },
     {
+        "label": "InsufficientFundsError",
+        "kind": 6,
+        "importPath": "python_error_handling.ice_bank",
+        "description": "python_error_handling.ice_bank",
+        "peekOfCode": "class InsufficientFundsError:\n    def __init__(self, balance, amount, minimum_balance):\n        self.balance = balance\n        self.amount = amount\n        self.minimum_balance = minimum_balance  \n        self.message = (\n            f\"Insufficient funds: Current balance {balance}, \"\n            f\"attempted withdrawal {amount}, \"\n            f\"minimum required balance {minimum_balance}.\"\n        )",
+        "detail": "python_error_handling.ice_bank",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidTransactionError",
+        "kind": 6,
+        "importPath": "python_error_handling.ice_bank",
+        "description": "python_error_handling.ice_bank",
+        "peekOfCode": "class InvalidTransactionError:\n    def __init__(self, amount):\n        self.amount = amount\n        self.message = (\n            f\"Invalid transaction: {amount}. \"\n            \"Withdrawal amount must be greater than 0.\"\n        )\n        super().__init__(self.message)\ndef process_withdrawal(prompt, current_balance, minimum_balance):\n    execute = True",
+        "detail": "python_error_handling.ice_bank",
+        "documentation": {}
+    },
+    {
+        "label": "exception",
+        "kind": 2,
+        "importPath": "python_error_handling.ice_bank",
+        "description": "python_error_handling.ice_bank",
+        "peekOfCode": "def exception(cls):\n    new_cls = type(cls.__name__, (cls, Exception), {})\n    new_cls.__module__ = cls.__module__\n    new_cls.__doc__ = cls.__doc__\n    return new_cls\n@exception\nclass InsufficientFundsError:\n    def __init__(self, balance, amount, minimum_balance):\n        self.balance = balance\n        self.amount = amount",
+        "detail": "python_error_handling.ice_bank",
+        "documentation": {}
+    },
+    {
+        "label": "process_withdrawal",
+        "kind": 2,
+        "importPath": "python_error_handling.ice_bank",
+        "description": "python_error_handling.ice_bank",
+        "peekOfCode": "def process_withdrawal(prompt, current_balance, minimum_balance):\n    execute = True\n    while execute:\n        user_input = input(prompt).strip()\n        try:\n            amount = float(user_input)\n            if amount <= 0:\n                raise InvalidTransactionError(amount)\n            if current_balance - amount < minimum_balance:\n                raise InsufficientFundsError(current_balance, amount, minimum_balance)",
+        "detail": "python_error_handling.ice_bank",
+        "documentation": {}
+    },
+    {
+        "label": "amount",
+        "kind": 5,
+        "importPath": "python_error_handling.ice_bank",
+        "description": "python_error_handling.ice_bank",
+        "peekOfCode": "amount = process_withdrawal(\"Enter withdrawal amount: $ \", 1000.00, 100.00)\nprint(f\"Withdrawal successful: $ { amount}\")\nprint(f\"New balance: ${1000.00 - float(amount)}\")\nprint()",
+        "detail": "python_error_handling.ice_bank",
+        "documentation": {}
+    },
+    {
+        "label": "InsufficientFundsError",
+        "kind": 6,
+        "importPath": "python_error_handling.pawa_bank",
+        "description": "python_error_handling.pawa_bank",
+        "peekOfCode": "class InsufficientFundsError:\n    def __init__(self, balance, amount, minimum_balance):\n        self.balance = balance\n        self.amount = amount\n        self.minimum_balance = minimum_balance\n        self.message = (f\"Insufficient funds: Current balance {balance}, \"\n                        f\"attempted withdrawal {amount}, \"\n                        f\"minimum required balance {minimum_balance}.\")\n        super().__init__(self.message)  \n@exception",
+        "detail": "python_error_handling.pawa_bank",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidTransactionError",
+        "kind": 6,
+        "importPath": "python_error_handling.pawa_bank",
+        "description": "python_error_handling.pawa_bank",
+        "peekOfCode": "class InvalidTransactionError:\n    def __init__(self, amount):\n        self.amount = amount\n        self.message = f\"Invalid transaction: {amount}. Withdrawal amount must be greater than 0.\"\n        super().__init__(self.message)\ndef process_withdrawal(prompt, current_balance, minimum_balance):\n    execute = True\n    while execute:\n        user_input = input(prompt).strip()\n        try:",
+        "detail": "python_error_handling.pawa_bank",
+        "documentation": {}
+    },
+    {
+        "label": "exception",
+        "kind": 2,
+        "importPath": "python_error_handling.pawa_bank",
+        "description": "python_error_handling.pawa_bank",
+        "peekOfCode": "def exception(cls):\n    return type(cls.__name__, (cls, Exception,), {})\n@exception\nclass InsufficientFundsError:\n    def __init__(self, balance, amount, minimum_balance):\n        self.balance = balance\n        self.amount = amount\n        self.minimum_balance = minimum_balance\n        self.message = (f\"Insufficient funds: Current balance {balance}, \"\n                        f\"attempted withdrawal {amount}, \"",
+        "detail": "python_error_handling.pawa_bank",
+        "documentation": {}
+    },
+    {
+        "label": "process_withdrawal",
+        "kind": 2,
+        "importPath": "python_error_handling.pawa_bank",
+        "description": "python_error_handling.pawa_bank",
+        "peekOfCode": "def process_withdrawal(prompt, current_balance, minimum_balance):\n    execute = True\n    while execute:\n        user_input = input(prompt).strip()\n        try:\n            amount = float(user_input)\n            if amount <= 0:\n                raise InvalidTransactionError(amount)\n            if current_balance - amount < minimum_balance:\n                raise InsufficientFundsError(current_balance, amount, minimum_balance)",
+        "detail": "python_error_handling.pawa_bank",
+        "documentation": {}
+    },
+    {
+        "label": "amount",
+        "kind": 5,
+        "importPath": "python_error_handling.pawa_bank",
+        "description": "python_error_handling.pawa_bank",
+        "peekOfCode": "amount = process_withdrawal(\"Enter withdrawal amount: $\", 1000.00, 100.00)\nprint(f\"Withdrawal successful: ${amount}\")\nprint(f\"New balance: ${1000.00 - float(amount)}\")\nprint()",
+        "detail": "python_error_handling.pawa_bank",
+        "documentation": {}
+    },
+    {
         "label": "read_input",
         "kind": 2,
         "importPath": "python_error_handling.task",
         "description": "python_error_handling.task",
-        "peekOfCode": "def read_input(prompt, min, max):\n    execute = True\n    while execute:\n        try:\n            value = int(input(prompt))\n            if min <= value <= max:\n                print(f\"you entered: {value}\")\n                print(\"Good bye!\")\n                execute = False\n            else:",
+        "peekOfCode": "def read_input(prompt, min, max):\n    execute = True\n    while execute:\n        try:\n            value = int(input(prompt))\n            if value >= min and value <= max:\n                print(f\"you entered: {value}\")\n                print(\"Good bye!\")\n                execute = False\n            else:",
         "detail": "python_error_handling.task",
+        "documentation": {}
+    },
+    {
+        "label": "change_case",
+        "kind": 2,
+        "importPath": "python_error_handling.temp",
+        "description": "python_error_handling.temp",
+        "peekOfCode": "def change_case(func):\n    def wrapper(*args, **kwargs):\n        result = func().upper()\n        return result\n    return wrapper\n@change_case\ndef text():\n    return \"Hello World\"\nresult = text()\nprint(result)",
+        "detail": "python_error_handling.temp",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 2,
+        "importPath": "python_error_handling.temp",
+        "description": "python_error_handling.temp",
+        "peekOfCode": "def text():\n    return \"Hello World\"\nresult = text()\nprint(result)",
+        "detail": "python_error_handling.temp",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "python_error_handling.temp",
+        "description": "python_error_handling.temp",
+        "peekOfCode": "result = text()\nprint(result)",
+        "detail": "python_error_handling.temp",
         "documentation": {}
     },
     {

@@ -3,7 +3,7 @@ def read_input(prompt, min, max):
     while execute:
         try:
             value = int(input(prompt))
-            if min <= value <= max:
+            if value >= min and value <= max:
                 print(f"you entered: {value}")
                 print("Good bye!")
                 execute = False

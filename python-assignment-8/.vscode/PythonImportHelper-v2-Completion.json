@@ -1,0 +1,191 @@
+[
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "AttendanceRegister",
+        "kind": 6,
+        "importPath": "python-assignment-8.attendance",
+        "description": "python-assignment-8.attendance",
+        "peekOfCode": "class AttendanceRegister:\n    def __init__(self):\n        self.register = {}\n    def mark_present(self, student_name):\n        self.register[student_name] = \"Present\"\n    def mark_absent(self, student_name):\n        self.register[student_name] = \"Absent\"\n    def get_status(self, student_name):\n        return self.register.get(student_name, \"No record found\")\n    def show_register(self):",
+        "detail": "python-assignment-8.attendance",
+        "documentation": {}
+    },
+    {
+        "label": "AttendanceRegister",
+        "kind": 6,
+        "importPath": "python-assignment-8.attendance_answer",
+        "description": "python-assignment-8.attendance_answer",
+        "peekOfCode": "class AttendanceRegister:\nattendance = {}\ndef register_student(student_id, name):\n    if student_id not in attendance:\n        attendance[student_id] = {\n            \"name\": name,\n            \"present_days\": [],\n            \"absent_days\": []\n        }\n    else:",
+        "detail": "python-assignment-8.attendance_answer",
+        "documentation": {}
+    },
+    {
+        "label": "register_student",
+        "kind": 2,
+        "importPath": "python-assignment-8.attendance_answer",
+        "description": "python-assignment-8.attendance_answer",
+        "peekOfCode": "def register_student(student_id, name):\n    if student_id not in attendance:\n        attendance[student_id] = {\n            \"name\": name,\n            \"present_days\": [],\n            \"absent_days\": []\n        }\n    else:\n        print(f\"Student ID {student_id} already exists.\")\ndef mark_present(student_ids):",
+        "detail": "python-assignment-8.attendance_answer",
+        "documentation": {}
+    },
+    {
+        "label": "mark_present",
+        "kind": 2,
+        "importPath": "python-assignment-8.attendance_answer",
+        "description": "python-assignment-8.attendance_answer",
+        "peekOfCode": "def mark_present(student_ids):\n    today = str(datetime.date.today())\n    for student in student_ids:\n        if student in attendance:\n            if today not in attendance[student][\"present_days\"]:\n                attendance[student][\"present_days\"].append(today)\n            # remove from absent if wrongly marked\n            if today in attendance[student][\"absent_days\"]:\n                attendance[student][\"absent_days\"].remove(today)\n        else:",
+        "detail": "python-assignment-8.attendance_answer",
+        "documentation": {}
+    },
+    {
+        "label": "mark_absent",
+        "kind": 2,
+        "importPath": "python-assignment-8.attendance_answer",
+        "description": "python-assignment-8.attendance_answer",
+        "peekOfCode": "def mark_absent(student_ids):\n    today = str(datetime.date.today())\n    for student in student_ids:\n        if student in attendance:\n            if today not in attendance[student][\"absent_days\"]:\n                attendance[student][\"absent_days\"].append(today)\n            if today in attendance[student][\"present_days\"]:\n                attendance[student][\"present_days\"].remove(today)\n        else:\n            print(f\"Student ID {student} not registered.\")",
+        "detail": "python-assignment-8.attendance_answer",
+        "documentation": {}
+    },
+    {
+        "label": "get_report",
+        "kind": 2,
+        "importPath": "python-assignment-8.attendance_answer",
+        "description": "python-assignment-8.attendance_answer",
+        "peekOfCode": "def get_report(**kwargs):\n    report = {}\n    for student, data in attendance.items():\n        if kwargs.get(\"only_present\") and not data[\"present_days\"]:\n            continue\n        if kwargs.get(\"only_absent\") and not data[\"absent_days\"]:\n            continue\n        report[student] = data\n    return report\nregister_student(\"S1\", \"Alice\")",
+        "detail": "python-assignment-8.attendance_answer",
+        "documentation": {}
+    },
+    {
+        "label": "attendance",
+        "kind": 5,
+        "importPath": "python-assignment-8.attendance_answer",
+        "description": "python-assignment-8.attendance_answer",
+        "peekOfCode": "attendance = {}\ndef register_student(student_id, name):\n    if student_id not in attendance:\n        attendance[student_id] = {\n            \"name\": name,\n            \"present_days\": [],\n            \"absent_days\": []\n        }\n    else:\n        print(f\"Student ID {student_id} already exists.\")",
+        "detail": "python-assignment-8.attendance_answer",
+        "documentation": {}
+    },
+    {
+        "label": "BankAccount",
+        "kind": 6,
+        "importPath": "python-assignment-8.bank",
+        "description": "python-assignment-8.bank",
+        "peekOfCode": "class BankAccount:\n    def __init__(self, initial_balance=0):\n        self.name = {}\n        self.initial_balance = initial_balance\n    def deposit(self, name, amount):\n        if name in self.name:\n            self.name[name] += amount\n        else:\n            self.name[name] = amount\n    def withdraw(self, name, amount):",
+        "detail": "python-assignment-8.bank",
+        "documentation": {}
+    },
+    {
+        "label": "Calculator",
+        "kind": 6,
+        "importPath": "python-assignment-8.calculator",
+        "description": "python-assignment-8.calculator",
+        "peekOfCode": "class Calculator:\n    def __init__(self):\n        pass\n    def add(self, num1: int, num2: int) -> int:\n        return num1 + num2\n    def sub(self, num1: int, num2: int) -> int:\n        return num1 - num2\n    def mul(self, num1: int, num2: int) -> int:\n        return num1 * num2\n    def div(self, num1: int, num2: int) -> int:",
+        "detail": "python-assignment-8.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "calc",
+        "kind": 5,
+        "importPath": "python-assignment-8.calculator",
+        "description": "python-assignment-8.calculator",
+        "peekOfCode": "calc = Calculator()\nprint(calc.add(4, 6))\nprint()\nprint(calc.mul(4, 6))\nprint()\nprint(calc.div(4, -2))\nprint()\nprint(calc.sub(4, 6))",
+        "detail": "python-assignment-8.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "Calculator",
+        "kind": 6,
+        "importPath": "python-assignment-8.calculator_answer",
+        "description": "python-assignment-8.calculator_answer",
+        "peekOfCode": "class Calculator:\n    def add(self, num1, num2):\n        return num1 + num2\n    def subtract(self, num1, num2):\n        return num1 - num2\n    def multiply(self, num1, num2):\n        return num1 * num2              \n    def divide(self, num1, num2):\n        if num2 == 0:\n            return \"Error: cannot divide by zero\"",
+        "detail": "python-assignment-8.calculator_answer",
+        "documentation": {}
+    },
+    {
+        "label": "calc",
+        "kind": 5,
+        "importPath": "python-assignment-8.calculator_answer",
+        "description": "python-assignment-8.calculator_answer",
+        "peekOfCode": "calc = Calculator()\nprint(calc.add(5, 3))\nprint(calc.subtract(10, 4))\nprint(calc.multiply(2, 4))",
+        "detail": "python-assignment-8.calculator_answer",
+        "documentation": {}
+    },
+    {
+        "label": "ShoppingCart",
+        "kind": 6,
+        "importPath": "python-assignment-8.cart",
+        "description": "python-assignment-8.cart",
+        "peekOfCode": "class ShoppingCart:\n    def __init__(self, price_list):\n        self.items = {}\n        self.price_list = price_list\n    def add_item(self, item, quantity=1):\n        if item in self.items:\n            self.items[item] += quantity\n        else:\n            self.items[item] = quantity\n    def remove_item(self, item, quantity=1):",
+        "detail": "python-assignment-8.cart",
+        "documentation": {}
+    },
+    {
+        "label": "prices",
+        "kind": 5,
+        "importPath": "python-assignment-8.cart",
+        "description": "python-assignment-8.cart",
+        "peekOfCode": "prices = {\"Shirt\": 5000, \"Shoes\": 12000}\ncart = ShoppingCart(prices)\ncart.add_item(\"Shirt\", 2)\nprint \n# print(cart.calculate_total())\n# cart.remove_item(\"Shirt\", 1)\n# print(cart.calculate_total())  \n# cart.add_item(\"Shoes\", 1)\n# print(cart.calculate_total()) \n# cart.clear_cart()",
+        "detail": "python-assignment-8.cart",
+        "documentation": {}
+    },
+    {
+        "label": "cart",
+        "kind": 5,
+        "importPath": "python-assignment-8.cart",
+        "description": "python-assignment-8.cart",
+        "peekOfCode": "cart = ShoppingCart(prices)\ncart.add_item(\"Shirt\", 2)\nprint \n# print(cart.calculate_total())\n# cart.remove_item(\"Shirt\", 1)\n# print(cart.calculate_total())  \n# cart.add_item(\"Shoes\", 1)\n# print(cart.calculate_total()) \n# cart.clear_cart()\n# print(cart.calculate_total())",
+        "detail": "python-assignment-8.cart",
+        "documentation": {}
+    },
+    {
+        "label": "AttendanceRegister",
+        "kind": 6,
+        "importPath": "python-assignment-8.import datetime",
+        "description": "python-assignment-8.import datetime",
+        "peekOfCode": "class AttendanceRegister:\n    def __init__(self):\n        \"\"\"\n        Constructor method that initializes the main dictionary to store\n        all students' attendance records.\n        Example structure:\n        {\n            \"Alice\": {\"present_days\": [\"2025-09-03\"], \"absent_days\": []},\n            \"Bob\":   {\"present_days\": [], \"absent_days\": [\"2025-09-03\"]}\n        }",
+        "detail": "python-assignment-8.import datetime",
+        "documentation": {}
+    },
+    {
+        "label": "ShoppingCart",
+        "kind": 6,
+        "importPath": "python-assignment-8.shopping_cart",
+        "description": "python-assignment-8.shopping_cart",
+        "peekOfCode": "class ShoppingCart:",
+        "detail": "python-assignment-8.shopping_cart",
+        "documentation": {}
+    },
+    {
+        "label": "AttendanceRegister",
+        "kind": 6,
+        "importPath": "python-assignment-8.temp",
+        "description": "python-assignment-8.temp",
+        "peekOfCode": "class AttendanceRegister:\n    def __init__(self):\n        \"\"\"\n        Constructor method that initializes the main dictionary to store\n        all students' attendance records.\n        Example structure:\n        {\n            \"Alice\": {\"present_days\": [\"2025-09-03\"], \"absent_days\": []},\n            \"Bob\":   {\"present_days\": [], \"absent_days\": [\"2025-09-03\"]}\n        }",
+        "detail": "python-assignment-8.temp",
+        "documentation": {}
+    },
+    {
+        "label": "AttendanceRegister",
+        "kind": 6,
+        "importPath": "attendance_answer",
+        "description": "attendance_answer",
+        "peekOfCode": "class AttendanceRegister:\n    def __init__(self):\n        self.attendance_records = {}\n    def register_student(self, student_name):\n        if student_name not in self.attendance_records:\n            self.attendance_records[student_name] = {\n                \"present_days\": [],\n                \"absent_days\": []\n            }\n        else:",
+        "detail": "attendance_answer",
+        "documentation": {}
+    },
+    {
+        "label": "student1",
+        "kind": 5,
+        "importPath": "attendance_answer",
+        "description": "attendance_answer",
+        "peekOfCode": "student1 = AttendanceRegister()\nstudent1.register_student(\"John\")\nstudent1.register_student(\"John\")\nprint(student1.attendance_records)\nstudent1.mark_present(\"John\")\nprint(student1.get_status(\"John\"))\nprint(student1.show_register())",
+        "detail": "attendance_answer",
+        "documentation": {}
+    }
+]
